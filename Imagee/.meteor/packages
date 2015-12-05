@@ -16,3 +16,7 @@ meteoric:ionicons-sass
 meteoric:ionic
 iron:layout
 cfs:standard-packages
+meteorhacks:npm
+
+
+npm-container
