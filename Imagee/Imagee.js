@@ -1,9 +1,10 @@
 
-Images = new FS.Collection("public/images", {
-  stores: [new FS.Store.FileSystem("public/images", {path: "~/uploads"})]
-});
 
 if (Meteor.isClient) {
+
+  Images.find().forEach(function(img) {
+    console.log(img.name());
+  });
 
   var images = [
     {text: "1", img: "images/1-to go.png"},
