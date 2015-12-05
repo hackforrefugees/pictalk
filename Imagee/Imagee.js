@@ -2,17 +2,11 @@
 
 if (Meteor.isClient) {
 
-  Images.find().forEach(function(img) {
-    console.log(img.name());
-  });
+  var images;
 
-  var images = [
-    {text: "1", img: "images/1-to go.png"},
-    {text: "2", img: "images/2-sadface.png"},
-    {text: "3", img: "images/3-to complete.png"},
-    {text: "4", img: "images/4-to want copycolored balls.png"},
-    {text: "5", img: "images/5-No in color.png"},
-  ];
+  Meteor.call('getFiles', function(err,response) {
+    images = response;
+  });
 
   Router.configure({
       layoutTemplate: 'layout'
@@ -33,6 +27,13 @@ if (Meteor.isClient) {
 if (Meteor.isServer) {
   Meteor.startup(function () {
 
+    var files = JSON.parse(Assets.getText("komHit.json"));
+
+    Meteor.methods({
+  	  getFiles: function () {
+  		  return files;
+      }
+    });
     // code to run on server at startup
   });
 }
