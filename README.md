@@ -2,7 +2,7 @@
 Description: Digital version of http://kom-hit.se/flykting/ with added contextual vocabularies. Designed to allow refugees and volunteers to communicate without sharing a common language.
 
 #Demo
-http://paklau.info/pictalk/pictalk.mov
+http://goo.gl/ivj6Ij
 
 # Instructions
 * Remember to only use libraries, content etc that is compatible with an open source license.
