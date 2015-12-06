@@ -1,3 +1,4 @@
+Categories = new Mongo.Collection("categories");
 Files = new Mongo.Collection("images");
 
 if (Meteor.isClient) {
@@ -23,17 +24,24 @@ if (Meteor.isClient) {
     this.render('categories');
   });
   Router.route('/categories/:_id', function() {
-    Meteor.call('getFiles', this.params._id, function(err, response) {
 
+    Meteor.subscribe("files");
+    var categoryId = "";
+    categories.forEach(function(category, index) {
+      if (obj.id == this.params._id) {
+        categoryId = category["Swedish"];
+      }
     });
-  });
-
-  Template.categories.helpers({
-    allCategories: categories
-  });
-
-  Template.images.helpers({
-    allImages: images
+    var imgs = Files.find({"Kategori": categoryId});
+    $.each(imgs, function(idx, image) {
+			Blaze.renderWithData(Template.images, image, parentNode);
+		});
+    // Meteor.call('getFiles', this.params._id, function(err, response) {
+    //   images = response;
+    //   $.each(images, function(idx, image) {
+		// 		Blaze.renderWithData(Template.images, image, parentNode);
+		// 	});
+    // });
   });
 
   Template.categories.rendered = function() {
@@ -51,14 +59,26 @@ if (Meteor.isServer) {
   Meteor.startup(function() {
 
     var files = JSON.parse(Assets.getText("komHit.json"));
-    Files.insert(files);
+    files.forEach(function (file, index, array) {
+        Files.insert(file);
+    });
 
     var categories = JSON.parse(Assets.getText("categories.json"));
+    categories.forEach(function (category, index, array) {
+        Categories.insert(category);
+    });
 
     Meteor.methods({
       getFiles: function(category) {
-        var cat = categories[category].Swedish;
-        return Files.find({Kategori: cat});
+        var categoryId = "";
+        categories.forEach(function(obj, index) {
+          if (obj.id == category) {
+            categoryId = obj["Swedish"];
+          }
+        });
+        Meteor.publish("files", function() {
+          return Files.find({"Kategori": categoryId});
+        });
       },
       getCategories: function() {
         return categories;
