@@ -1,0 +1,9 @@
+[
+  {"id": "health", "Swedish": "Hälsa", "English": "Food"},
+  {"id": "food", "Swedish": "Food", "English": "Food"},
+  {"id": "shopping", "Swedish": "Shopping", "English": "Shopping"},
+  {"id": "transportation", "Swedish": "Transportation", "English": "Transportation"},
+  {"id": "dailylife", "Swedish": "Daily life", "English": "Dily life"},
+  {"id": "corevocabulary", "Swedish": "Core vocabulary", "English": "Core vocabulary"},
+  {"id": "corevocabulary", "Swedish": "Core vocabulary", "English": "Core vocabulary"}
+]
