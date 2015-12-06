@@ -32,7 +32,8 @@
 
       <div class="row "></div>
       <div class="row "></div>
-      <!-- {{> categoryList}} -->
+      {{> categoryList}}
+      {{> images}}
 
     {{/ionContent}}
   {{/ionView}}
@@ -62,18 +63,29 @@
 
 
 <template name="categoryList">
-  <div class="row"></div>
+  <div class="row">
+    <div>
+      <a href="/categories/health" class="ui teal image label button">Health</a>
+    </div>
+    <div>
+      <a href="/categories/shopping" class="ui teal image label button">Shopping</a>
+    </div>
+    <div>
+      <a href="/categories/food" class="ui teal image label button">Food</a>
+    </div>
+    <div>
+      <a href="/categories/transportation" class="ui teal image label button">Transportation</a>
+    </div>
+    <div>
+      <a href="/categories/dailylife" class="ui teal image label button">Daily Life</a>
+    </div>
+  </div>
 </template>
 
 <template name="category">
 
   <div>
-    <a class="ui teal image label button">{{Swedish}}</a>
-    <!-- <button class="ui teal button">{{Swedish}}</button> -->
-    <!-- <button> {{Swedish}} </button> -->
-    <!-- <div class="col {{id}}">
-    <a href="/categories/{{Swedish}}">{{Swedish}}</a>
--->
+    <a href="/categories/{{Swedish}}" class="ui teal image label button">{{Swedish}}</a>
   </div>
 
 </template>
@@ -85,9 +97,12 @@
   </div>
 </template>
 
+<template name="image">
+  <div class="image">
+    <img src="{{path}}" />
+  </div>
+</template>
 
-
-<template name="images"></template>
 
 <template name="ion">
   {{#ionContent}}
