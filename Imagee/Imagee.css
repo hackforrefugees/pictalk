@@ -1,1 +1,13 @@
 /* CSS declarations go here */
+.button-centered {
+  text-align: center;
+}
+
+.homePad{
+  margin-top: 40px;
+}
+
+
+.homeIconPad{
+  margin-top: 40px;
+}
