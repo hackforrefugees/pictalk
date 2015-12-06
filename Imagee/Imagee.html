@@ -7,50 +7,110 @@
 
 <template name="categories">
 
-  {{#contentFor "headerButtonLeft"}}
+  <!-- {{#contentFor "headerButtonLeft"}}
     {{>ionNavBackButton path="/" text="Back"}}
   {{/contentFor}}
 
   {{#contentFor "headerTitle"}}
     <h1 class="title">Categories</h1>
-  {{/contentFor}}
+  {{/contentFor}} -->
 
   {{#ionView}}
     {{#ionContent}}
-      {{> categoryList}}
+
+      <div class="row">
+        <div class="col">
+          <a href="/setup">
+            <img class="setUpPad setUpBorder" src="images/setupB.png" style="width:80;height:48px;"></a>
+        </div>
+
+        <div class="col textRight">
+          <a href="/zoom">
+            <img class="setUpPad setUpBorder" src="images/zoomB.png" style="width:80;height:48px;"></a>
+        </div>
+      </div>
+
+      <div class="row "></div>
+      <div class="row "></div>
+      <!-- {{> categoryList}} -->
+
     {{/ionContent}}
   {{/ionView}}
 </template>
 
-<template name="categoryList">
-  <div class="row">
 
+<template name="zoom">
+  {{#ionView}}
+  {{#ionContent}}
+
+  <div class="row">
+    <div class="col">
+      <a class="ui teal basic button" href="/categories">
+        Create New</a>
+    </div>
+
+    <div class="col textRight">
+      <a href="/categories">
+        <img class="setUpPad setUpBorder" src="images/zoomOut.png" style="width:80;height:48px;"></a>
+    </div>
   </div>
+
+
+  {{/ionContent}}
+{{/ionView}}
+</template>
+
+
+<template name="categoryList">
+  <div class="row"></div>
 </template>
 
 <template name="category">
-  <div class="column {{id}}">
+
+  <div>
+    <a class="ui teal image label button">{{Swedish}}</a>
+    <!-- <button class="ui teal button">{{Swedish}}</button> -->
+    <!-- <button> {{Swedish}} </button> -->
+    <!-- <div class="col {{id}}">
     <a href="/categories/{{Swedish}}">{{Swedish}}</a>
+-->
   </div>
+
 </template>
+
 
 <template name="images">
   <div class="images">
-    
+
   </div>
 </template>
 
 
 
+<template name="images"></template>
+
 <template name="ion">
+  {{#ionContent}}
+    <div class="tCenter">
+      <script>
+        setTimeout(function() {
+          window.location.href = '/setup'
+        }, 3000);
+      </script>
+      <img class="logoPad tCenter" src="images/logo.png" style="width:205;height:178px;">
+      <h1 class="tCenter appName">
+        PicTalk
+      </h1>
+    </div>
+  {{/ionContent}}
+</template>
+
+<template name="setup">
   {{#ionContent}}
 
     <div class="homePad">
       <div class="button-centered">
-        <img src="images/logo.png" style="width:128px;height:128px;">
-        <h3>
-          XXXXXXX
-        </h3>
+        <img src="images/setupc.png">
 
         <div class="homeIconPad button-centered">
           <p>
@@ -76,9 +136,6 @@
       </div>
     </div>
 
-    <button>
-      <a href="/categories">Page One</a>
-    </button>
   {{/ionContent}}
 </template>
 

@@ -1,16 +1,4 @@
 /* CSS declarations go here */
-.button-centered {
-  text-align: center;
-}
-
-.homePad{
-  margin-top: 40px;
-}
-
-
-.homeIconPad{
-  margin-top: 40px;
-}
 
 .health {
   background-color: lightblue;
@@ -29,4 +17,59 @@
 }
 .corevocabulary {
   background-color: white;
+}
+
+
+
+/* CSS declarations go here */
+.button-centered {
+  text-align: center;
+}
+
+.homePad{
+  margin-top: 40px;
+}
+
+
+.homeIconPad{
+  margin-top: 60px;
+}
+
+.setUpPad{
+  padding: 5px;
+}
+
+.setUpBorder{
+
+  border: solid;
+  border-radius: 2px;
+  border-width: 1px;
+  border-color: #00b5ad;
+  /*background-color: #67597a;*/
+}
+
+
+
+.setUpBorder:active
+{
+  opacity: 0.5;
+}
+
+.textRight {
+  text-align: right;
+}
+
+
+
+.tCenter{
+  text-align: center;
+}
+
+
+.appName{
+  color: #67597a;
+}
+.logoPad{
+  margin-top: 150px;
+  margin-bottom: 30px;
 }

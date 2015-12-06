@@ -3,6 +3,7 @@ Files = new Mongo.Collection("images");
 
 if (Meteor.isClient) {
 
+
   // var images = [
   //   {category: "", text: "1", img: "images/1-to go.png"},
   //   {text: "2", img: "images/2-sadface.png"},
@@ -11,6 +12,7 @@ if (Meteor.isClient) {
   //   {text: "5", img: "images/5-No in color.png"}
   // ];
   // var categories = [];
+
 
   Meteor.subscribe("allimages");
   Meteor.subscribe("allcategories");
@@ -24,6 +26,12 @@ if (Meteor.isClient) {
   });
   Router.route('/categories', function() {
     this.render('categories');
+  });
+  Router.route('/setup', function() {
+    this.render('setup');
+  });
+  Router.route('/zoom', function() {
+    this.render('zoom');
   });
   Router.route('/categories/:_id', function() {
     var self = this;
@@ -41,11 +49,16 @@ if (Meteor.isClient) {
   });
 
   Template.categories.rendered = function() {
-    var parentNode = $(this.lastNode).find(".content .row")[0];
+
+    var parentNode = $(this.lastNode).find(".content .row")[1];
     Categories.find().fetch().forEach(function(idx, category) {
 			Blaze.renderWithData(Template.category, category, parentNode);
 		});
+
   }
+
+
+
 }
 
 if (Meteor.isServer) {
@@ -74,13 +87,7 @@ if (Meteor.isServer) {
 
 
     Meteor.methods({
-      // getFiles: function(category) {
-      //
-      //
-      // },
-      // getCategories: function() {
-      //   return categories;
-      // }
+
     });
     // code to run on server at startup
   });
