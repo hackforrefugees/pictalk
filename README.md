@@ -1,4 +1,4 @@
-# komhit
+# PicTalk
 Description: Digital version of http://kom-hit.se/flykting/ with added contextual vocabularies. Designed to allow refugees and volunteers to communicate without sharing a common language.
 
 #Demo
