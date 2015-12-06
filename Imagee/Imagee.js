@@ -2,13 +2,22 @@ Files = new Mongo.Collection("images");
 
 if (Meteor.isClient) {
 
-  var images = [
-    {text: "1", img: "images/1-to go.png"},
-    {text: "2", img: "images/2-sadface.png"},
-    {text: "3", img: "images/3-to complete.png"},
-    {text: "4", img: "images/4-to want copycolored balls.png"},
-    {text: "5", img: "images/5-No in color.png"}
-  ];
+  var images = [{
+    text: "1",
+    img: "images/1-to go.png"
+  }, {
+    text: "2",
+    img: "images/2-sadface.png"
+  }, {
+    text: "3",
+    img: "images/3-to complete.png"
+  }, {
+    text: "4",
+    img: "images/4-to want copycolored balls.png"
+  }, {
+    text: "5",
+    img: "images/5-No in color.png"
+  }];
   var categories = [];
 
 
@@ -21,6 +30,9 @@ if (Meteor.isClient) {
   });
   Router.route('/categories', function() {
     this.render('categories');
+  });
+  Router.route('/setup', function() {
+    this.render('setup');
   });
   Router.route('/categories/:_id', function() {
     Meteor.call('getFiles', this.params._id, function(err, response) {
@@ -41,8 +53,8 @@ if (Meteor.isClient) {
     Meteor.call('getCategories', function(err, response) {
       categories = response;
       $.each(categories, function(idx, category) {
-				Blaze.renderWithData(Template.category, category, parentNode);
-			});
+        Blaze.renderWithData(Template.category, category, parentNode);
+      });
     });
   }
 }
@@ -58,7 +70,9 @@ if (Meteor.isServer) {
     Meteor.methods({
       getFiles: function(category) {
         var cat = categories[category].Swedish;
-        return Files.find({Kategori: cat});
+        return Files.find({
+          Kategori: cat
+        });
       },
       getCategories: function() {
         return categories;
