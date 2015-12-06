@@ -34,6 +34,9 @@ if (Meteor.isClient) {
   Router.route('/setup', function() {
     this.render('setup');
   });
+  Router.route('/zoom', function() {
+    this.render('zoom');
+  });
   Router.route('/categories/:_id', function() {
     Meteor.call('getFiles', this.params._id, function(err, response) {
 
@@ -49,7 +52,7 @@ if (Meteor.isClient) {
   });
 
   Template.categories.rendered = function() {
-    var parentNode = $(this.lastNode).find(".content .row")[0];
+    var parentNode = $(this.lastNode).find(".content .row")[1];
     Meteor.call('getCategories', function(err, response) {
       categories = response;
       $.each(categories, function(idx, category) {
@@ -57,6 +60,9 @@ if (Meteor.isClient) {
       });
     });
   }
+
+
+
 }
 
 if (Meteor.isServer) {

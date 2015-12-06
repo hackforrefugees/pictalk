@@ -43,14 +43,12 @@
 
   border: solid;
   border-radius: 2px;
-  border-width: 1.5px;
-  border-color: #67597a;
+  border-width: 1px;
+  border-color: #00b5ad;
   /*background-color: #67597a;*/
 }
 
-.setUpBorder:hover{
-  opacity: 0.5;
-}
+
 
 .setUpBorder:active
 {

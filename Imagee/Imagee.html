@@ -17,31 +17,74 @@
 
   {{#ionView}}
     {{#ionContent}}
-      <p></p>
+
       <div class="row">
         <div class="col">
-          <a href="/">
-            <img class="setUpPad setUpBorder" src="images/setup.png" style="width:80;height:48px;"></a>
+          <a href="/setup">
+            <img class="setUpPad setUpBorder" src="images/setupB.png" style="width:80;height:48px;"></a>
         </div>
 
         <div class="col textRight">
-          <a href="/">
-            <img class="setUpPad setUpBorder" src="images/zoom.png" style="width:80;height:48px;"></a>
+          <a href="/zoom">
+            <img class="setUpPad setUpBorder" src="images/zoomB.png" style="width:80;height:48px;"></a>
         </div>
       </div>
-      {{> categoryList}}
+
+      <div class="row "></div>
+      <div class="row "></div>
+      <!-- {{> categoryList}} -->
+
     {{/ionContent}}
   {{/ionView}}
 </template>
+
+
+<template name="zoom">
+  {{#ionView}}
+  {{#ionContent}}
+
+  <div class="row">
+    <div class="col">
+      <a class="ui teal basic button" href="/categories">
+        Create New</a>
+    </div>
+
+    <div class="col textRight">
+      <a href="/categories">
+        <img class="setUpPad setUpBorder" src="images/zoomOut.png" style="width:80;height:48px;"></a>
+    </div>
+  </div>
+
+
+  {{/ionContent}}
+{{/ionView}}
+</template>
+
 
 <template name="categoryList">
   <div class="row"></div>
 </template>
 
 <template name="category">
-  <div class="column {{id}}">
+
+  <div>
+    <a class="ui teal image label button">{{Swedish}}</a>
+    <!-- <button class="ui teal button">{{Swedish}}</button> -->
+    <!-- <button> {{Swedish}} </button> -->
+    <!-- <div class="col {{id}}">
     <a href="/categories/{{Swedish}}">{{Swedish}}</a>
+-->
   </div>
+
+</template>
+
+<template name="corecard">
+
+  <div>
+    <a class="ui teal image label button">{{Swedish}}</a>
+corecard
+</div>
+
 </template>
 
 <template name="images"></template>
