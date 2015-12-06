@@ -11,3 +11,22 @@
 .homeIconPad{
   margin-top: 40px;
 }
+
+.health {
+  background-color: lightblue;
+}
+.food {
+  background-color: red;
+}
+.shopping {
+  background-color: green;
+}
+.transportation {
+  background-color: blue;
+}
+.dailylife {
+  background-color: grey;
+}
+.corevocabulary {
+  background-color: white;
+}

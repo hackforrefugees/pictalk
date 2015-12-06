@@ -17,20 +17,28 @@
 
   {{#ionView}}
     {{#ionContent}}
-      {{#ionList}}
-        {{#each allCategories}}
-          {{#ionItem}}
-            {{> category}}
-          {{/ionItem}}
-        {{/each}}
-      {{/ionList}}
+      {{> categoryList}}
     {{/ionContent}}
   {{/ionView}}
 </template>
 
-<template name="category">
-  <p>hej</p>
+<template name="categoryList">
+  <div class="row">
+
+  </div>
 </template>
+
+<template name="category">
+  <div class="column {{id}}">
+    <a href="/categories/{{Swedish}}">{{Swedish}}</a>
+  </div>
+</template>
+
+<template name="images">
+
+</template>
+
+
 
 <template name="ion">
   {{#ionContent}}
