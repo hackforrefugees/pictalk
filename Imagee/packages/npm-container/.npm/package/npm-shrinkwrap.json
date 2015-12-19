@@ -1,7 +1,0 @@
-{
-  "dependencies": {
-    "shelljs": {
-      "version": "0.5.3"
-    }
-  }
-}

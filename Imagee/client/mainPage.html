@@ -1,0 +1,41 @@
+<template name="mainPage">
+  <head>
+    <title>PicTalk</title>
+  </head>
+
+  <body>
+    <!-- <div class="container">
+      <header>
+        <h1>Word List</h1>
+      </header>
+
+    </div> -->
+
+    <!-- <div>
+      {{#each words}}
+        {{> word}}
+      {{/each}}
+
+    </div> -->
+
+    <div class="ui two column grid clickImage">
+      {{#each images}}
+        {{> image}}
+      {{/each}}
+    </div>
+  </body>
+
+</template>
+
+<template name="word">
+  <p>{{id}}</p>
+
+</template>
+
+<template name="image">
+  <div class="column ">
+    <img alt="" class="ui fluid image" name="{{id}}" src="{{File}}"/>
+    <p class="belowText">{{English}}</p>
+  </div>
+
+</template>

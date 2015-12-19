@@ -1,0 +1,82 @@
+/* CSS declarations go here */
+.belowText{
+  text-align: center;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+/* CSS declarations go here */
+/*
+.health {
+  background-color: lightblue;
+}
+.food {
+  background-color: red;
+}
+.shopping {
+  background-color: green;
+}
+.transportation {
+  background-color: blue;
+}
+.dailylife {
+  background-color: grey;
+}
+.corevocabulary {
+  background-color: white;
+}*/
+
+
+
+/* CSS declarations go here */
+.button-centered {
+  text-align: center;
+}
+
+.homePad{
+  margin-top: 40px;
+}
+
+
+.homeIconPad{
+  margin-top: 60px;
+}
+
+.setUpPad{
+  padding: 5px;
+}
+
+.setUpBorder{
+
+  border: solid;
+  border-radius: 2px;
+  border-width: 1px;
+  border-color: #00b5ad;
+  /*background-color: #67597a;*/
+}
+
+
+
+.setUpBorder:active
+{
+  opacity: 0.5;
+}
+
+.textRight {
+  text-align: right;
+}
+
+
+
+.tCenter{
+  text-align: center;
+}
+
+
+.appName{
+  color: #67597a;
+}
+.logoPad{
+  margin-top: 150px;
+  margin-bottom: 30px;
+}
