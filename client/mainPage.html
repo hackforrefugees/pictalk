@@ -1,9 +1,7 @@
 <template name="mainPage">
-
+  {{> navbar}}
   <div class="ui two column grid clickImage">
-    {{#each images}}
-      {{> image}}
-    {{/each}}
+    {{#each images}} {{> image}} {{/each}}
   </div>
 
 </template>
