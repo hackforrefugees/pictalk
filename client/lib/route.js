@@ -14,3 +14,4 @@ Router.route('/mainPage');
 
 Router.route('/words');
 Router.route('/setup');
+Router.route('/zoom');

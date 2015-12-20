@@ -1,0 +1,21 @@
+<template name="zoom">
+  <div class="ui three column grid">
+    <div class="column">
+      <a class="ui teal basic button" href="/mainPage">
+        Create New</a>
+    </div>
+    <div class="column textCenter">
+        <h2>PicTalk</h2>
+    </div>
+    <div class="column textRight">
+      <a href="/mainPage">
+        <img class="setUpPad setUpBorder" src="../images/zoomOut.png" style="width:80;height:48px;"></a>
+    </div>
+  </div>
+  
+  {{#each words}}
+  <p>
+    {{id}}
+  </p>
+  {{/each}}
+</template>

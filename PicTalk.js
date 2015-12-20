@@ -1,11 +1,13 @@
 if (Meteor.isClient) {
 
   //Getting words
-  Template.body.helpers({
-    words: function() {
+  Template.zoom.helpers({
+    'words': function() {
       return Words.find();
     }
   });
+
+
 
   Template.mainPage.events({
     "click .clickImage": function(event, template) {
@@ -17,10 +19,14 @@ if (Meteor.isClient) {
       });
     }
   });
+
+
+
 }
 
 if (Meteor.isServer) {
   Meteor.startup(function() {
     // code to run on server at startup
+
   });
 }
