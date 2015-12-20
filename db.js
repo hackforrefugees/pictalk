@@ -1,9 +1,6 @@
 if (Meteor.isClient) {
   // This code only runs on the client
-
-
-
-  Template.body.helpers({
+  Template.mainPage.helpers({
     images: [{
       "Kategori": "Health",
       "Swedish": "Hjärta",
