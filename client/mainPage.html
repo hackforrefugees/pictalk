@@ -1,7 +1,11 @@
 <template name="mainPage">
+  <!-- insert navigation bar -->
   {{> navbar}}
-  <div class="ui two column grid clickImage">
-    {{#each images}} {{> image}} {{/each}}
+  <!-- show images -->
+  <div class="ui two column grid ">
+    {{#each images}}
+      {{> image}}
+    {{/each}}
   </div>
 
 </template>
@@ -12,9 +16,15 @@
 </template>
 
 <template name="image">
-  <div class="column ">
-    <img alt="" class="ui fluid image" name="{{id}}" src="../{{File}}" />
-    <p class="belowText">{{English}}</p>
-  </div>
+
+  {{#if isSelectable}}
+    <div class="column clickImage">
+      <img alt="" class="ui fluid image" name="{{english}}" src="../bilder/{{file}}"/>
+      <p class="belowText">{{english}}
+      </p>
+    </div>
+    {{else}}
+
+  {{/if}}
 
 </template>

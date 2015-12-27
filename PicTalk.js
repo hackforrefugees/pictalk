@@ -1,22 +1,16 @@
+Words = new Mongo.Collection("words");
+Images = new Mongo.Collection("images");
+
 if (Meteor.isClient) {
 
-  //Getting words
-  Template.zoom.helpers({
-    'words': function() {
-      return Words.find();
-    }
-  });
 
 
-
-  Template.mainPage.events({
-    "click .clickImage": function(event, template) {
-      console.log(event.target.name);
-      $(event.target).parent().hide(400);
-      var imageId = event.target.name;
-      Words.insert({
-        id: imageId
-      });
+  Template.image.helpers({
+    catIs: function(category) {
+      return this.category === category;
+    },
+    isSelectable: function() {
+      return this.selectable;
     }
   });
 
@@ -28,5 +22,17 @@ if (Meteor.isServer) {
   Meteor.startup(function() {
     // code to run on server at startup
 
+  });
+
+  Meteor.methods({
+    'limiteSelectableToCore': function() {
+      Images.update({
+        category: {
+          $ne: "Core"
+        }
+      }, {
+        selectable: false
+      });
+    }
   });
 }

@@ -1,7 +1,7 @@
 <template name="zoom">
   <div class="ui three column grid">
     <div class="column">
-      <a class="ui teal basic button" href="/mainPage">
+      <a class="ui teal basic button createNew" href="/mainPage">
         Create New</a>
     </div>
     <div class="column textCenter">
@@ -12,10 +12,28 @@
         <img class="setUpPad setUpBorder" src="../images/zoomOut.png" style="width:80;height:48px;"></a>
     </div>
   </div>
-  
-  {{#each words}}
-  <p>
-    {{id}}
-  </p>
+<!-- auto insert -->
+  <div class="ui two column grid ">
+  {{#each images}}
+  {{#if isSelected}}
+    <div class="column">
+      <img alt="" class="ui fluid image" name="{{english}}" src="../bilder/{{file}}"/>
+
+    </div>
+    <div class="column">
+      <h2>{{english}}</h2>
+      <h2>{{swedish}}</h2>
+      <h1>{{arabic}}</h1>
+    </div>
+    {{else}}
+
+  {{/if}}
   {{/each}}
+</div>
 </template>
+
+<!-- <template name="message">
+  <div>
+    <img src="../bilder/{{File}}" />
+  </div>
+</template> -->
