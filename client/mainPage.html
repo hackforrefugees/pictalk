@@ -1,6 +1,14 @@
 <template name="mainPage">
   <!-- insert navigation bar -->
   {{> navbar}}
+  <div class="ui five column grid ">
+    <div class="column category">
+      <button class="ui red button" title="Health">Health</button>
+    </div>
+    <div class="column category">
+      <button class="ui violet button" title="Feelings">Feelings</button>
+    </div>
+  </div>
   <!-- show images -->
   <div class="ui two column grid ">
     {{#each images}}
