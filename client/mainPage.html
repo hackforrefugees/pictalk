@@ -1,25 +1,26 @@
 <template name="mainPage">
-  <!-- insert navigation bar -->
-  {{> navbar}}
-  <!-- insert categoryButtons bar -->
-  <div class="catbar">
-    <div class="ui buttons">
-      {{#each categoryButtons}}
-        {{> categoryButton}}
-      {{/each}}
+  <div class="ui grid container ">
+    <!-- insert navigation bar -->
+    {{> navbar}}
+    <!-- insert categoryButtons bar -->
+    <div class="catbar">
+      <div class="ui buttons">
+        {{#each categoryButtons}}
+          {{> categoryButton}}
+        {{/each}}
+      </div>
     </div>
-  </div>
 
-  <!-- show images -->
-  <div class="contentPic">
-    <div class="ui two column grid ">
-      {{#each images}}
-        {{> image}}
-      {{/each}}
+    <!-- show images -->
+    <div class="contentPic">
+      <div class="ui two column grid ">
+        {{#each images}}
+          {{> image}}
+        {{/each}}
+      </div>
     </div>
   </div>
 </template>
-
 
 <template name="image">
 

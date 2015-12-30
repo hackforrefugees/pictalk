@@ -1,25 +1,29 @@
 <template name="zoom">
+  <div class="ui grid container ">
+    <!--  insert navbar-->
+    <div class="navbar">
+      <div class="ui three column grid">
+        <div class="column">
 
-  <!--  insert navbar-->
-  <div class="navbar">
-    <div class="ui three column grid">
-      <div class="column">
-
-        <a class="ui teal basic button createNew" href="/mainPage" style="width:69;height:48px;">
-          Create New</a>
-      </div>
-      <div class="column textCenter">
-        <h2 class="picTalkTextLogo">PicTalk</h2>
-      </div>
-      <div class="column textRight">
-        <a href="/mainPage">
-          <img class="setUpPad setUpBorder" src="../images/zoomOut.png" style="width:69;height:48px;"></a>
+          <a class="ui teal basic button createNew" href="/mainPage" style="width:69;height:48px;">
+            Create New</a>
+        </div>
+        <div class="column textCenter">
+          <h2 class="picTalkTextLogo">PicTalk</h2>
+        </div>
+        <div class="column textRight">
+          <a href="/mainPage">
+            <img class="setUpPad setUpBorder" src="../images/zoomOut.png" style="width:69;height:48px;"></a>
+        </div>
       </div>
     </div>
-  </div>
 
-  <div class="ui grid container ">
+    <div class="emptyZoom">
+
+
+    </div>
     <!-- auto insert -->
+
     <div class="contentPic">
       <div class="ui two column grid ">
         {{#each images}}

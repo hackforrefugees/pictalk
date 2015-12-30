@@ -75,11 +75,11 @@
 }
 
 .contentPic{
-  /*position: fixed;
+  /*position: relative;
   top: 85px;
   left:0;
-  width: 100%;*/
-  margin-top: 85px;
+  width: 100%;
+  margin-top: 85px;*/
 
 }
 
@@ -90,6 +90,11 @@
   padding:10%;
   color: #00b5ad;
 }
+
+.emptyZoom{
+  height:85px;
+}
+
 
 .transText{
   text-align: center;
