@@ -83,7 +83,20 @@
 
 }
 
+
+/*=================zoom================*/
+
 .picTalkTextLogo{
   padding:10%;
   color: #00b5ad;
+}
+
+.transText{
+  text-align: center;
+  font-weight: bolder;
+  font-size: 25px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-top: 3px;
+  margin-bottom: 3px;
 }

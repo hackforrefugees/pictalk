@@ -9,7 +9,7 @@
           Create New</a>
       </div>
       <div class="column textCenter">
-          <h2 class="picTalkTextLogo">PicTalk</h2>
+        <h2 class="picTalkTextLogo">PicTalk</h2>
       </div>
       <div class="column textRight">
         <a href="/mainPage">
@@ -18,25 +18,28 @@
     </div>
   </div>
 
+  <div class="ui grid container ">
+    <!-- auto insert -->
+    <div class="contentPic">
+      <div class="ui two column grid ">
+        {{#each images}}
+          {{#if isSelected}}
+            <div class="column">
+              <img alt="" class="ui fluid image" name="{{english}}" src="../bilder/{{file}}"/>
 
-<!-- auto insert -->
-  <div class="ui two column grid ">
-  {{#each images}}
-  {{#if isSelected}}
-    <div class="column">
-      <img alt="" class="ui fluid image" name="{{english}}" src="../bilder/{{file}}"/>
+            </div>
+            <div class="column">
+              <p class="transText">{{english}}</p>
+              <p class="transText">{{swedish}}</p>
+              <p class="transText">{{arabic}}</p>
+            </div>
+            {{else}}
 
+          {{/if}}
+        {{/each}}
+      </div>
     </div>
-    <div class="column">
-      <h2>{{english}}</h2>
-      <h2>{{swedish}}</h2>
-      <h1>{{arabic}}</h1>
-    </div>
-    {{else}}
-
-  {{/if}}
-  {{/each}}
-</div>
+  </div>
 </template>
 
 <!-- <template name="message">
