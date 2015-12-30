@@ -1,14 +1,15 @@
 <template name="mainPage">
   <!-- insert navigation bar -->
   {{> navbar}}
-  <div class="ui five column grid ">
-    <div class="column category">
-      <button class="ui red button" title="Health">Health</button>
-    </div>
-    <div class="column category">
-      <button class="ui violet button" title="Feelings">Feelings</button>
+  <!-- insert categoryButtons bar -->
+  <div class="catbar">
+    <div class="ui buttons">
+      {{#each categoryButtons}}
+        {{> categoryButton}}
+      {{/each}}
     </div>
   </div>
+
   <!-- show images -->
   <div class="ui two column grid ">
     {{#each images}}
@@ -31,4 +32,10 @@
 
   {{/if}}
 
+</template>
+
+<template name="categoryButton">
+  <div class="category">
+    <button class="ui {{color}} button" title="{{name}}">{{name}}</button>
+  </div>
 </template>
