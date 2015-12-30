@@ -33,7 +33,7 @@
     </div>
     <!-- show images -->
     <div class="contentPic">
-      <div class="ui two column grid ">
+      <div class="ui two column grid">
         {{#each images}}
           {{> image}}
         {{/each}}
@@ -43,7 +43,6 @@
 </template>
 
 <template name="image">
-
   {{#if isSelectable}}
     <div class="column clickImage">
       <img alt="" class="ui fluid image" name="{{english}}" src="../bilder/{{file}}"/>
