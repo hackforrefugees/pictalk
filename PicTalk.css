@@ -27,7 +27,7 @@
   border-radius: 2px;
   border-width: 1px;
   border-color: #00b5ad;
-  /*background-color: #67597a;*/
+  background-color: white;
 }
 
 
@@ -74,14 +74,16 @@
   z-index: 1;
 }
 
-/*.content{
-  position: fixed;
+.contentPic{
+  /*position: fixed;
   top: 85px;
   left:0;
-  width: 100%;
+  width: 100%;*/
+  margin-top: 85px;
 
-}*/
+}
 
 .picTalkTextLogo{
   padding:10%;
+  color: #00b5ad;
 }
