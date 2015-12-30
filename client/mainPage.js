@@ -2,7 +2,28 @@ var stringCore = "Core";
 Session.setDefault("selectedCategory", "");
 //var selectedCategory = "Feelings";
 
+
 Template.mainPage.helpers({
+  categoryButtons: [{
+    name: "Daily life",
+    color: "red"
+  }, {
+    name: "Feelings",
+    color: "violet"
+  }, {
+    name: "Health",
+    color: "red"
+  }, {
+    name: "Food",
+    color: "green"
+  }, {
+    name: "Shopping",
+    color: "red"
+  }, {
+    name: "Transportation",
+    color: "blue"
+  }],
+
   images: function() {
     var categorySecondary = Session.get('selectedCategory');
     console.log("categorySecondary is:" + categorySecondary);
@@ -16,8 +37,7 @@ Template.mainPage.helpers({
         "_id": -1
       }
     });
-
-    console.log(objCore);
+    console.log("prepare to return objCore");
     return objCore;
   }
 });
@@ -26,34 +46,28 @@ Template.mainPage.helpers({
 Template.mainPage.events({
   "click .category": function(event, template) {
     var btnCategory = event.target.title;
-    console.log("btnCategory is :" + btnCategory);
-    //selectedCategory = btnCategory;
+    // Control affordance
+    if (event.target.clicked !== true) {
+      event.target.clicked = true;
+    } else {
+      event.target.clicked = false;
+    }
+    // Tell meteor what category is selected
     Session.set('selectedCategory', btnCategory);
-    console.log("selectedCategory is:" + Session.get('selectedCategory'));
+
   },
 
   "click .clickImage": function(event, template) {
-    //console.log(event.target.name);
+    //
     var imageId = this._id;
-    console.log("the imageId is " + imageId);
-    Meteor.call('limiteSelectableToCore');
-
-    Session.set('selectedImage', imageId);
-    var selectedImage = Session.get('selectedImage');
-    Images.update(selectedImage, {
+    Images.update(imageId, {
       $set: {
-        selected: true
+        selected: true,
+        addedToMsg: new Date()
       }
     });
 
-
-
     $(event.target).parent().hide(400);
-    //var imageName = event.target.name;
-    Words.insert({
-      File: imageId
-    });
-
 
   }
 });

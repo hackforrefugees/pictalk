@@ -1,9 +1,6 @@
-Words = new Mongo.Collection("words");
 Images = new Mongo.Collection("images");
 
 if (Meteor.isClient) {
-
-
 
   Template.image.helpers({
     catIs: function(category) {
@@ -25,13 +22,21 @@ if (Meteor.isServer) {
   });
 
   Meteor.methods({
-    'limiteSelectableToCore': function() {
+    'createNew': function() {
+      console.log("createNew called");
+      // var selectedQuery = Images.find({
+      //   "selected": true
+      // });
+      // console.log(selectedQuery);
+
       Images.update({
-        category: {
-          $ne: "Core"
+        selected: true
+      }, {
+        $set: {
+          selected: false
         }
       }, {
-        selectable: false
+        multi: true
       });
     }
   });

@@ -5,30 +5,7 @@
   font-weight: 800;
 }
 
-/* CSS declarations go here */
-/*
-.health {
-  background-color: lightblue;
-}
-.food {
-  background-color: red;
-}
-.shopping {
-  background-color: green;
-}
-.transportation {
-  background-color: blue;
-}
-.dailylife {
-  background-color: grey;
-}
-.corevocabulary {
-  background-color: white;
-}*/
 
-
-
-/* CSS declarations go here */
 .button-centered {
   text-align: center;
 }
@@ -42,9 +19,7 @@
   margin-top: 60px;
 }
 
-.setUpPad{
-  padding: 5px;
-}
+
 
 .setUpBorder{
 
@@ -67,28 +42,46 @@
 }
 
 
-
 .textCenter{
   text-align: center;
+
 }
 
 
 .appName{
   color: #67597a;
 }
+
 .logoPad{
   margin-top: 150px;
   margin-bottom: 30px;
 }
 
 
-/*
-div.picTalkTiltle {
-  height: 10em;
-  display: flex;
-  align-items: center;
-  justify-content: center }
+.navbar{
+  position: fixed;
+  top:0; left:0;
+  width: 100%;
+  z-index: 1;
+  background-color: white;
+}
 
-div.picTalkTiltle p {
-  margin: 0;
- }*/
+.catbar{
+  position: fixed;
+  top: 49px;
+  left:0;
+  width: 100%;
+  z-index: 1;
+}
+
+/*.content{
+  position: fixed;
+  top: 85px;
+  left:0;
+  width: 100%;
+
+}*/
+
+.picTalkTextLogo{
+  padding:10%;
+}

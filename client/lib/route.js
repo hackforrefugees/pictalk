@@ -3,7 +3,7 @@
 // });
 
 Router.route('/', {
-  template: 'index'
+  template: 'mainPage'
 });
 Router.route('/home');
 
