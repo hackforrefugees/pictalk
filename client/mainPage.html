@@ -4,13 +4,33 @@
     {{> navbar}}
     <!-- insert categoryButtons bar -->
     <div class="catbar">
-      <div class="ui buttons">
-        {{#each categoryButtons}}
-          {{> categoryButton}}
-        {{/each}}
+      <div class="ui equal width center aligned grid fitted">
+        <div class="row">
+          <div class="teal column category" title="Daily life">
+            Daily life
+          </div>
+          <div class="olive column category" title="Feelings">
+            Feelings
+          </div>
+          <div class="teal column category" title="Health">
+            Health
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="olive column category" title="Food">
+            Food
+          </div>
+          <div class="teal column category" title="Shopping">
+            Shopping
+          </div>
+          <div class="olive column category" title="Transportation">
+            Transportation
+          </div>
+        </div>
+
       </div>
     </div>
-
     <!-- show images -->
     <div class="contentPic">
       <div class="ui two column grid ">
@@ -37,7 +57,7 @@
 </template>
 
 <template name="categoryButton">
-  <div class="category">
-    <button class="ui {{color}} button" title="{{name}}">{{name}}</button>
-  </div>
+
+  <a class="{{color}} item category" title="{{name}}">{{name}}</a>
+
 </template>

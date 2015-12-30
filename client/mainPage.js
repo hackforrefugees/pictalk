@@ -9,19 +9,19 @@ Template.mainPage.helpers({
     color: "red"
   }, {
     name: "Feelings",
-    color: "violet"
+    color: "orange"
   }, {
     name: "Health",
-    color: "red"
+    color: "teal"
   }, {
     name: "Food",
     color: "green"
   }, {
     name: "Shopping",
-    color: "red"
+    color: "yellow"
   }, {
     name: "Transportation",
-    color: "blue"
+    color: "pink"
   }],
 
   images: function() {
