@@ -1,0 +1,23 @@
+{
+  "name": "pictalk",
+  "version": "1.0.0",
+  "description": "PicTalk is an app that helps people who do not share the same language to communicate with each other. Using pictures/symbols connected to a multilingual dictionary, PicTalk is especially aimed at assisting refugees on their immediate entry to a new country. The first version of PicTalk was developed during the [Hack for Refugees](http://hackforrefugees.com/) in Gothenburg.",
+  "main": "PicTalk.js",
+  "dependencies": {
+    "imgcache.js": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://radishlau@github.com/hackforrefugees/pictalk.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hackforrefugees/pictalk/issues"
+  },
+  "homepage": "https://github.com/hackforrefugees/pictalk#readme"
+}

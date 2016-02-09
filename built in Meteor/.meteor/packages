@@ -25,3 +25,4 @@ insecure                # Allow all DB writes from clients (for prototyping)
 
 aldeed:collection2      #to use schema
 aldeed:autoform         #to use schema
+ground:db

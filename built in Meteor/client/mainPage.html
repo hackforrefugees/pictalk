@@ -33,9 +33,12 @@
     </div>
     <!-- show images -->
     <div class="contentPic">
+
+      test1
       <div class="ui two column grid">
         {{#each images}}
           {{> image}}
+          test2
         {{/each}}
       </div>
     </div>
@@ -45,8 +48,11 @@
 <template name="image">
   {{#if isSelectable}}
     <div class="column clickImage">
-      <img alt="" class="ui fluid image" name="{{english}}" src="../images/{{file}}"/>
+      <img alt="" class="ui fluid image" name="{{english}}" src="../images/{{file}}" >
+
+
       <p class="belowText">{{english}}
+        test3
       </p>
     </div>
     {{else}}
