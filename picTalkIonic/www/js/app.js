@@ -32,6 +32,7 @@ angular.module('picTalk', ['ionic'])
   $scope.currentCategory = "Core";
   $scope.pics = picInJson;
 
+
   // Create and load the Modal
   $ionicModal.fromTemplateUrl('new-pic.html', function(modal) {
     $scope.picModal = modal;

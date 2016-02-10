@@ -44,7 +44,9 @@
       </ion-header-bar>
 
       <!-- our list and list items -->
+
       <ion-content>
+
         <!-- categories horizontal scroll -->
         <div class="row">
           <div class="col">
@@ -75,7 +77,7 @@
           <ion-item collection-repeat="pic in pics" item-width="50%" item-height="250px" on-tap="picOnTap(pic)" class="picTapped" on-swipe-right="onSwipeRight()">
             <img ng-src="img/pics/{{pic.file}}" class="full-image ">
             <div class="center caption" ng-style="myStyle" ng-click="$scope.picTouched= 2">
-              
+
               {{pic.arabic }} <br>
               {{pic.english }}
             </div>
@@ -111,10 +113,13 @@
       <!-- If i use ng-repeat, cannot accept duplicates -->
 
       <ion-content>
+      <ion-list show-delete="false" can-swipe="true">
         <ion-item collection-repeat="message in messages" item-width="100%">
           <div class="row">
             <div class="col">
               <img ng-src="img/pics/{{message.file}}" width="170px" height="170px">
+              <ion-item href="#">
+                  <ion-option-button ng-click="deleteEvent()" class="button-assertive icon ion-trash-a"></ion-option-button>
             </div>
             <div class="col">
               <div class="translatedCaption">
