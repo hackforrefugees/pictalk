@@ -78,8 +78,8 @@
             <img ng-src="img/pics/{{pic.file}}" class="full-image ">
             <div class="center caption" ng-style="myStyle" ng-click="$scope.picTouched= 2">
 
-              {{pic.arabic }} <br>
-              {{pic.english }}
+              {{pic.arabic }}
+              <br> {{pic.english }}
             </div>
           </ion-item>
         </div>
@@ -95,52 +95,51 @@
     </ion-side-menu>
   </ion-side-menus> -->
 
-  <script id="new-pic.html" type="text/ng-template">
+    <script id="new-pic.html" type="text/ng-template">
 
-    <div class="modal">
+      <div class="modal">
 
-      <!-- Modal header bar -->
-      <ion-header-bar class="bar-secondary">
-        <h1 class="title">Message</h1>
-        <button class="button button-icon" ng-click="closeMessage()">
-          <i class="icon ion-ios-close-empty"></i>
-        </button>
-      </ion-header-bar>
+        //Modal header bar
+        <ion-header-bar class="bar-secondary">
+          <h1 class="title">Message</h1>
+          <button class="button button-icon" ng-click="closeMessage()">
+            <i class="icon ion-ios-close-empty"></i>
+          </button>
+        </ion-header-bar>
 
-      <!-- Modal content area -->
+        //Modal content area //If i fill in item-height, only one picture will show in message //If i use ng-repeat, cannot accept duplicates
 
-      <!-- If i fill in item-height, only one picture will show in message -->
-      <!-- If i use ng-repeat, cannot accept duplicates -->
-
-      <ion-content>
-      <ion-list show-delete="false" can-swipe="true">
-        <ion-item collection-repeat="message in messages" item-width="100%">
-          <div class="row">
-            <div class="col">
-              <img ng-src="img/pics/{{message.file}}" width="170px" height="170px">
-              <ion-item href="#">
-                  <ion-option-button ng-click="deleteEvent()" class="button-assertive icon ion-trash-a"></ion-option-button>
-            </div>
-            <div class="col">
-              <div class="translatedCaption">
-                {{message.swedish}}
+        <ion-content>
+          <ion-list show-delete="false" can-swipe="true">
+            <ion-item collection-repeat="message in messages" item-width="100%">
+              <div class="row">
+                <div class="col">
+                  <img ng-src="img/pics/{{message.file}}" width="170px" height="170px">
+                </div>
+                <div class="col">
+                  <div class="translatedCaption">
+                    {{message.swedish}}
+                  </div>
+                  <div class="translatedCaption">
+                    {{message.english}}
+                  </div>
+                  <div class="translatedCaption">
+                    {{message.arabic}}
+                  </div>
+                </div>
+                <ion-option-button ng-click="deleteEvent()" class="button-assertive icon ion-trash-a"></ion-option-button>
               </div>
-              <div class="translatedCaption">
-                {{message.english}}
-              </div>
-              <div class="translatedCaption">
-                {{message.arabic}}
-              </div>
-            </div>
-          </div>
-        </ion-item>
-      </ion-content>
-    </div>
+              <!-- The delete button -->
+            </ion-item>
+          </ion-list>
+        </ion-content>
+      </div>
 
-  </script>
+    </script>
 
 
 
-</ion-side-menus></body>
+  </ion-side-menus>
+</body>
 
 </html>
