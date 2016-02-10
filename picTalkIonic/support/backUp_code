@@ -1,0 +1,12 @@
+<!--
+<form ng-submit="createPic(pic)">
+<div class="list">
+  <label class="item item-input">
+    <input type="text" placeholder="What do you need to do?" ng-model="pic.title">
+  </label>
+</div>
+<div class="padding">
+  <button type="submit" class="button button-block button-positive">Save Message</button>
+</div>
+</form>
+-->

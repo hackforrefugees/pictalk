@@ -1,0 +1,217 @@
+id,category,english,swedish,arabic,url,file,selected,selectable
+1,Core,I,Jag,انا,http://bildstod.se/image/get/7048,i.jpg,FALSE,TRUE
+2,Core,To,Till,إلى,http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/to.png,to.png,FALSE,TRUE
+3,Core,In,I,في,http://bildstod.se/image/get/6397,in.jpg,FALSE,TRUE
+4,Core,You,Du/Ni,"انت , انتم ",http://symbolmanager.ecs.soton.ac.uk/images/Designer/you_4.png,you.png,FALSE,TRUE
+5,Core,Yes,Ja,نعم,http://bildstod.se/image/get/2318,yes.jpg,FALSE,TRUE
+6,Core,No,Nej,لا,http://bildstod.se/image/get/2577,no.jpg,FALSE,TRUE
+7,Core,Have,Har,"لديه , عنده ",http://bildstod.se/image/get/1285,have.jpg,FALSE,TRUE
+8,Core,Like,Gilla,يحب,http://bildstod.se/image/get/8478,like.jpg,FALSE,TRUE
+9,Core,Me,Mig,انا,http://bildstod.se/image/get/7503,me.jpg,FALSE,TRUE
+10,Core,Do,Göra,"يعمل , يفعل ",http://bildstod.se/image/get/6682,do.jpg,FALSE,TRUE
+11,Core,On,På,على,http://bildstod.se/image/get/6408,on.jpg,FALSE,TRUE
+12,Core,People,Personer,الناس,http://bildstod.se/image/get/7313,people.jpg,FALSE,TRUE
+13,Core,Know,Veta,يعرف,http://bildstod.se/image/get/8232,know.jpg,FALSE,TRUE
+14,Core,With,Med,مع,http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/copyof-with.png,with.png,FALSE,TRUE
+15,Core,They,De,هم,http://bildstod.se/image/get/7228,they.jpg,FALSE,TRUE
+16,Core,What,Vad,"ماذا ,ما ",http://bildstod.se/image/get/483,what.jpg,FALSE,TRUE
+17,Core,Not,Inte,لا,http://bildstod.se/image/get/6477,not.jpg,FALSE,TRUE
+18,Core,She,Hon,هي,http://bildstod.se/image/get/7226,she.jpg,FALSE,TRUE
+19,Core,He,Han,هو,http://bildstod.se/image/get/6067,he.jpg,FALSE,TRUE
+20,Core,We,Vi,نحن,http://bildstod.se/image/get/8129,we.jpg,FALSE,TRUE
+21,Core,Think,Tänka,يفكر,http://bildstod.se/image/get/8099,think.jpg,FALSE,TRUE
+22,Core,One,En,واحد,http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/one_1.png,one.png,FALSE,TRUE
+23,Core,When,När,متى,http://bildstod.se/image/get/2669,when.jpg,FALSE,TRUE
+24,Core,Not,Inte,ليس,http://bildstod.se/image/get/7416,not.jpg,FALSE,TRUE
+25,Core,Well,Bra,جيد,http://bildstod.se/image/get/2318,well.jpg,FALSE,TRUE
+26,Core,Bad,Dålig,سيئ,http://bildstod.se/image/get/2577,bad.jpg,FALSE,TRUE
+27,Core,How,Hur,كيف,http://bildstod.se/image/get/1021,how.jpg,FALSE,TRUE
+28,Core,Or,Eller,أو,http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/which.png,or.png,FALSE,TRUE
+29,Core,Time,Tid,وقت,http://bildstod.se/image/get/2203,time.jpg,FALSE,TRUE
+30,Core,This,Detta,هذا,http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/copyof-copyof-this%20one.png,this.png,FALSE,TRUE
+31,Core,Use,Använda,يستعمل,http://bildstod.se/image/get/1619,use.jpg,FALSE,TRUE
+32,Core,There,Där,هناك,http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/there.png,there.png,FALSE,TRUE
+33,Core,Work,Jobba,"يعمل , يشتغل",http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/job_2.png,work.png,FALSE,TRUE
+34,Core,Say,Säga,يقول,http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/to%20say.png,say.png,FALSE,TRUE
+35,Core,From,Från,من,http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/from.png,from.png,FALSE,TRUE
+36,Core,Walk,Gå,يمشي,http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/to%20walk_1.png,walk.png,FALSE,TRUE
+37,Core,Can,Kan,يستطيع,http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/to%20be%20able%20to.png,can.png,FALSE,TRUE
+38,Core,More,Mer,أكثر,http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/more_1.png,more.png,FALSE,TRUE
+39,Core,Need,Behöver,يحتاج,http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/help_4.png,need.png,FALSE,TRUE
+40,Core,Some,Några,بعض,http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/copyof-copyof-copyof-copyof-copyof-copyof-copyof-copyof-copyof-copyof-copyof-copyof-copyof-copyof-copyof-copyof-copyof-copyof-copyof-copyof-copyof-copyof-copyof-copyof-thumbnail.png,some.png,FALSE,TRUE
+41,Core,Year,År,سنة,http://bildstod.se/image/get/16207,year.jpg,FALSE,TRUE
+42,Core,Month,Månad,شهر,http://bildstod.se/image/get/7358,month.jpg,FALSE,TRUE
+43,Core,Day,Dag,يوم,http://bildstod.se/image/get/3538,day.jpg,FALSE,TRUE
+44,Core,Hour,Timme,ساعة,http://bildstod.se/image/get/7326,hour.jpg,FALSE,TRUE
+45,Core,All,Alla,كل,http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/all%20-%20everything_1.png,all.png,FALSE,TRUE
+46,Core,Help,Hjälpa,مساعدة,http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/help_4.png,help.png,FALSE,TRUE
+47,Core,Get,Få,يستلم,http://bildstod.se/image/get/1557,get.png,FALSE,TRUE
+48,Core,Speech,Tal,كلام,http://bildstod.se/image/get/5877,speech.jpg,FALSE,TRUE
+49,Core,Most,Mesta,معظم,http://bildstod.se/image/get/10911,most.jpg,FALSE,TRUE
+50,Core,Now,Nu,الأن,http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/now.png,now.png,FALSE,TRUE
+51,Core,Which,Vilken,أي ؟,http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/which.png,which.png,FALSE,TRUE
+52,Core,Who,Vem,من ؟,http://bildstod.se/image/get/2362,who.jpg,FALSE,TRUE
+53,Core,Out,Ut,في الخارج,http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/out.png,out.png,FALSE,TRUE
+54,Core,Their,Deras,-هم,http://bildstod.se/image/get/1292,their.jpg,FALSE,TRUE
+55,Core,Been,Varit,كان,http://bildstod.se/image/get/5282,been.jpg,FALSE,TRUE
+56,Core,First,Först,الأول,http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/copyof-copyof-copyof-copyof-copyof-copyof-copyof-copyof-copyof-copyof-copyof-copyof-copyof-copyof-copyof-copyof-copyof-thumbnail.png,first.png,FALSE,TRUE
+57,Core,Different,Olika,فرق,http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/different.png,different.png,FALSE,TRUE
+58,Core,Really?!,Verkligen?!,هل هذا صحيح !؟,http://bildstod.se/image/get/4312,really.jpg,FALSE,TRUE
+59,Core,Things,Saker,أشياء,http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/things.png,things.png,FALSE,TRUE
+60,Core,Two,Två,اثنين,http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/number%20two_1.png,two.png,FALSE,TRUE
+61,Core,Boy,Pojke,ولد,http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/copyof-copyof-copyof-boy_3.png,boy.png,FALSE,TRUE
+62,Core,Girl,Flicka,بنت,http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/copyof-little%20girl.png,girl.png,FALSE,TRUE
+63,Core,Woman,Kvinna,إمرأة,http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/copyof-person_6.png,woman.png,FALSE,TRUE
+64,Core,Man,Man,رجل,http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/copyof-person_5.png,man.png,FALSE,TRUE
+65,Core,Sister,Syster,أخت,http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/sister.png,sister.png,FALSE,TRUE
+66,Core,Brother,Bror,أخ,http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/brother.png,brother.png,FALSE,TRUE
+67,Core,Mother,Mamma,أم,http://bildstod.se/image/get/3616,mother.jpg,FALSE,TRUE
+68,Core,Dad,Pappa,أب,http://bildstod.se/image/get/3848,dad.jpg,FALSE,TRUE
+69,Core,Grandmother,Mormor/farmor,جدة,http://bildstod.se/image/get/3101,grandmother.jpg,FALSE,TRUE
+70,Core,Grandfather,Morfar/farfar,جد,http://bildstod.se/image/get/2648,grandfather.jpg,FALSE,TRUE
+71,Core,Children,Barn,أولاد,http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/copyof-boys_2.png,children.png,FALSE,TRUE
+72,Core,Family,Familj,أسرة,http://bildstod.se/image/get/3580,family.jpg,FALSE,TRUE
+73,Core,Baby,Bebis,وليد,http://bildstod.se/image/get/6730,baby.jpg,,
+74,Health,Heart,Hjärta,قلب,http://bildstod.se/image/get/5175,heart.jpg,FALSE,TRUE
+75,Health,Leg,Ben,رجل,http://bildstod.se/image/get/8103,leg.jpg,FALSE,TRUE
+76,Health,Arm,Arm,ذراع,http://bildstod.se/image/get/4888,arm.jpg,FALSE,TRUE
+77,Health,Stomach,Mage,معدة,http://bildstod.se/image/get/11627,stomach.jpg,FALSE,TRUE
+78,Health,Chest,Bröst,صدر,http://bildstod.se/image/get/5407,chest.jpg,FALSE,TRUE
+79,Health,Throat,Hals,حنجرة,http://bildstod.se/image/get/5864,throat.jpg,FALSE,TRUE
+80,Health,"Ear, Ears",Öra,اذن,http://bildstod.se/image/get/5425,ear_ears.jpg,FALSE,TRUE
+81,Health,"Eye, Eyes",Öga,عين,http://bildstod.se/image/get/6991,eye_eyes.jpg,FALSE,TRUE
+82,Health,Head,Huvud,رأس,http://bildstod.se/image/get/4912,head.jpg,FALSE,TRUE
+83,Health,Medicine,Medicin,دواء,http://bildstod.se/image/get/7721,medicine.jpg,FALSE,TRUE
+84,Health,Pill,Tablett,حبة,http://bildstod.se/image/get/2868,pill.jpg,FALSE,TRUE
+85,Health,Injection,Spruta,"حقنة , ابرة",http://bildstod.se/image/get/5503,injection.jpg,FALSE,TRUE
+86,Health,Blood pressure,Blodtryck,ضغط دم,http://bildstod.se/image/get/7793,blood_pressure.jpg,FALSE,TRUE
+87,Health,Weight,Vikt,وزن,http://bildstod.se/image/get/4822,weight.jpg,FALSE,TRUE
+88,Health,Cough,Hosta,سعال,http://bildstod.se/image/get/5930,cough.jpg,FALSE,TRUE
+89,Health,Doctor,Läkare,طبيب,http://bildstod.se/image/get/3670,doctor.jpg,FALSE,TRUE
+90,Health,Nurse,Sjuksköterska,ممرضة,http://bildstod.se/image/get/8394,nurse.jpg,FALSE,TRUE
+91,Health,Hospital,Sjukhus,مستشفى,http://bildstod.se/image/get/6941,hospital.jpg,FALSE,TRUE
+92,Health,Aids,Hjälpmedel (ex. rullstol),مساعدات,http://bildstod.se/image/get/1329,aids.jpg,FALSE,TRUE
+93,Health,Measure Length,Mäta längd,قياس الطول,http://bildstod.se/image/get/6463,measure_length.jpg,FALSE,TRUE
+94,Health,Open mouth,Gapa,افتح فمك,http://bildstod.se/image/get/1566,open_mouth.jpg,FALSE,TRUE
+95,Health,Band aid,Plåster,"بلاستر , لاصق طبي ",http://bildstod.se/image/get/7869,band_aid.jpg,FALSE,TRUE
+96,Health,Pain,Smärta,ألم,http://bildstod.se/image/get/19300,pain.jpg,FALSE,TRUE
+97,Health,Cavity,Hål,نخر في الاسنان,http://bildstod.se/image/get/2375,cavity.jpg,FALSE,TRUE
+98,Health,Fever,Feber,"حمى , ترفع حروري ",http://bildstod.se/image/get/7053,fever.jpg,FALSE,TRUE
+99,Health,Vomit,Kräkas,يستفرغ,http://bildstod.se/image/get/5332,vomit.jpg,FALSE,TRUE
+100,Health,Nausia,Illamående,غثيان,http://bildstod.se/image/get/24012,nausia.jpg,FALSE,TRUE
+101,Health,Depression,Depression,اكتئاب,http://bildstod.se/image/get/4505,depression.jpg,FALSE,TRUE
+102,Health,Wound,Sår,جرح,http://bildstod.se/image/get/5357,wound.jpg,FALSE,TRUE
+103,Health,"Examine, check up",Hälsoundersökning,يفحص,http://bildstod.se/image/get/5171,examine_check_up.jpg,FALSE,TRUE
+104,Food,Water,Vatten,ماء,http://bildstod.se/image/get/2652,water.jpg,FALSE,TRUE
+105,Food,Milk,Mjölk,حليب,http://bildstod.se/image/get/3539,milk.jpg,FALSE,TRUE
+106,Food,Juice,Juice,عصير,http://bildstod.se/image/get/879,juice.jpg,FALSE,TRUE
+107,Food,Soda,Läsk,مياه غازية,http://bildstod.se/image/get/2778,soda.jpg,FALSE,TRUE
+108,Food,Coffee,Kaffe,قهوة,http://bildstod.se/image/get/2737,coffee.jpg,FALSE,TRUE
+109,Food,Tea,Te,شاي,http://bildstod.se/image/get/11723,tea.jpg,FALSE,TRUE
+110,Food,Wine,Vin,نبيذ,http://bildstod.se/image/get/4553,wine.jpg,FALSE,TRUE
+111,Food,Beer,Öl,بيرة,http://bildstod.se/image/get/2769,beer.jpg,FALSE,TRUE
+112,Food,Food,Mat,"أكل ,طعام ",http://bildstod.se/image/get/6013,food.jpg,FALSE,TRUE
+113,Food,Bread,Bröd,خبز,http://bildstod.se/image/get/3830,bread.jpg,FALSE,TRUE
+114,Food,Butter,Smör,زبدة,http://bildstod.se/image/get/3634,butter.jpg,FALSE,TRUE
+115,Food,Cheese,Ost,جبنة,http://bildstod.se/image/get/4085,cheese.jpg,FALSE,TRUE
+116,Food,Breakfast,Frukost,فطور,http://bildstod.se/image/get/6028,breakfast.jpg,FALSE,TRUE
+117,Food,Lunch,Lunch,غداء,http://bildstod.se/image/get/6014,lunch.jpg,FALSE,TRUE
+118,Food,Dinner,Middag,عشاء,http://bildstod.se/image/get/5995,dinner.jpg,FALSE,TRUE
+119,Food,Coffee Break,Fika,استراحة قهوة,http://bildstod.se/image/get/11721,coffee_break.jpg,FALSE,TRUE
+120,Food,Fruit,Frukt,فواكه,http://bildstod.se/image/get/6055,fruit.jpg,FALSE,TRUE
+121,Food,Vegetables,Grönsaker,خضار,http://bildstod.se/image/get/11896,vegetables.jpg,FALSE,TRUE
+122,Food,Meat,Kött,لحمة,http://bildstod.se/image/get/2756,meat.jpg,FALSE,TRUE
+123,Food,Pasta,Pasta,معكرونة,http://bildstod.se/image/get/8090,pasta.jpg,FALSE,TRUE
+124,Food,Potatoes,Potatis,بطاطا,http://bildstod.se/image/get/3885,potatoes.jpg,FALSE,TRUE
+125,Food,Rice,Ris,رز,http://bildstod.se/image/get/7112,rice.jpg,FALSE,TRUE
+126,Food,Candy,Godis,حلويات,http://bildstod.se/image/get/2629,candy.jpg,FALSE,TRUE
+127,Food,Chocolate,Choklad,شوكولا,http://bildstod.se/image/get/2773,chocolate.jpg,FALSE,TRUE
+128,Food,Fish,Fisk,سمك,http://bildstod.se/image/get/7396,fish.jpg,FALSE,TRUE
+129,Food,Chicken,Kyckling,دجاج,http://bildstod.se/image/get/6254,chicken.jpg,FALSE,TRUE
+130,Food,Eat,Äta,يأكل,http://bildstod.se/image/get/14620,eat.jpg,FALSE,TRUE
+131,Food,Drink,Dricka,يشرب,http://bildstod.se/image/get/2696,drink.jpg,FALSE,TRUE
+132,Shopping,Buy,Köpa,يشتري,http://bildstod.se/image/get/1714,buy.jpg,FALSE,TRUE
+133,Shopping,Money,Pengar,مصاري,http://bildstod.se/image/get/6032,money.jpg,FALSE,TRUE
+134,Shopping,Clothes,Kläder,ملابس,http://bildstod.se/image/get/7428,clothes.jpg,FALSE,TRUE
+135,Shopping,Shirt,Tröja,قميص,http://bildstod.se/image/get/2749,shirt.jpg,FALSE,TRUE
+136,Shopping,Pants,Byxor,بنطلون,http://bildstod.se/image/get/4258,pants.jpg,FALSE,TRUE
+137,Shopping,Jacket,Jacka,"سترة ,جاكيت",http://bildstod.se/image/get/2759,jacket.jpg,FALSE,TRUE
+138,Shopping,Gloves,Vantar,"قفازات , كفوف",http://bildstod.se/image/get/5470,gloves.jpg,FALSE,TRUE
+139,Shopping,Knit Cap,Mössa,"قبة ,طاقية ",http://bildstod.se/image/get/3344,knit_cap.jpg,FALSE,TRUE
+140,Shopping,Shoes,Skor,"احذية ,حذاء",http://bildstod.se/image/get/4600,shoes.jpg,FALSE,TRUE
+141,Shopping,Store,Affär,محل,http://bildstod.se/image/get/7034,store.jpg,FALSE,TRUE
+142,Shopping,Grocery Store,Mataffär,"دكان ,سوبر ماركت",http://bildstod.se/image/get/8183,grocery_store.jpg,FALSE,TRUE
+143,Shopping,Money Exchange,Växla pengar,تصريف عملة,http://bildstod.se/image/get/2070,money_exchange.jpg,FALSE,TRUE
+144,Shopping,Receipt,Kvitto,فاتورة,http://bildstod.se/image/get/8382,receipt.jpg,FALSE,TRUE
+145,Transportation,Bus,Buss,"حافلة ,باص",http://bildstod.se/image/get/2673,bus.jpg,FALSE,TRUE
+146,Transportation,Car,Bil,سيارة,http://bildstod.se/image/get/2779,car.jpg,FALSE,TRUE
+147,Transportation,Cab,Taxi,"سيارة اجرة , تاكسي",http://bildstod.se/image/get/4350,cab.jpg,FALSE,TRUE
+148,Transportation,Train,Tåg,قطار,http://bildstod.se/image/get/4487,train.jpg,FALSE,TRUE
+149,Transportation,Tram,Spårvagn,ترام,http://bildstod.se/image/get/4482,tram.jpg,FALSE,TRUE
+150,Transportation,Airplane,Flyg,طائرة,http://bildstod.se/image/get/2678,airplane.jpg,FALSE,TRUE
+151,Transportation,Boat,Båt,قارب,http://bildstod.se/image/get/1136,boat.jpg,FALSE,TRUE
+152,Transportation,Bicycle,Cykel,دراجة,http://bildstod.se/image/get/2702,bicycle.jpg,FALSE,TRUE
+153,Transportation,Right,Höger,يمين,http://bildstod.se/image/get/8400,right.jpg,FALSE,TRUE
+154,Transportation,Left,Vänster,يسار,http://bildstod.se/image/get/8401,left.jpg,FALSE,TRUE
+155,Transportation,Straight Forward,Rakt fram,"مباشر , على طول ",http://bildstod.se/image/get/2325,straight_forward.jpg,FALSE,TRUE
+156,Transportation,Back,Tillbaka,وراء,http://bildstod.se/image/get/6860,back.jpg,FALSE,TRUE
+157,Transportation,Behind,Bakom,وراء,http://bildstod.se/image/get/6401,behind.jpg,FALSE,TRUE
+158,Transportation,Travel direction,Vägbeskrivning,اتجاهات,http://bildstod.se/image/get/3367,travel_direction.jpg,FALSE,TRUE
+159,Transportation,Where is?,Var ligger?,اين,http://bildstod.se/image/get/7277,where_is.jpg,FALSE,TRUE
+160,Transportation,Time,Tid,وقت,http://bildstod.se/image/get/7279,time.jpg,FALSE,TRUE
+161,Transportation,Delay,Försening,تأخير,http://bildstod.se/image/get/23651,delay.jpg,FALSE,TRUE
+162,Transportation,Cancelled,Inställt,ملغىاة,http://bildstod.se/image/get/6477,cancelled.jpg,FALSE,TRUE
+163,Transportation,Walk,Gå,يمشي,http://bildstod.se/image/get/6715,walk.jpg,FALSE,TRUE
+164,Transportation,Passport,Pass,جواز سفر,http://bildstod.se/image/get/6784,passport.jpg,FALSE,TRUE
+165,Transportation,Ticket,Biljett,تذكرة,http://bildstod.se/image/get/677,ticket.jpg,FALSE,TRUE
+166,Daily life,TV,TV,تلفاز,http://bildstod.se/image/get/7787,tv.jpg,FALSE,TRUE
+167,Daily life,Computer,Dator,"جهاز حاسوب , كومبيوتر ",http://bildstod.se/image/get/7410,computer.jpg,FALSE,TRUE
+168,Daily life,Mobile,Mobil,"هاتف محمول , موبايل ",http://bildstod.se/image/get/4028,mobile.jpg,FALSE,TRUE
+169,Daily life,Charger,Laddare,شاحن,http://bildstod.se/image/get/1914,charger.jpg,FALSE,TRUE
+170,Daily life,Play,Leka,بلعب,http://bildstod.se/image/get/3504,play.jpg,FALSE,TRUE
+171,Daily life,Eat,Äta,يأكل,http://bildstod.se/image/get/14620,eat.jpg,FALSE,TRUE
+172,Daily life,Drink,Dricka,يشرب,http://bildstod.se/image/get/2696,drink.jpg,FALSE,TRUE
+173,Daily life,Walk,Gå,بمشي,http://bildstod.se/image/get/6715,walk.jpg,FALSE,TRUE
+174,Daily life,How are you?,Hur mår du?,كيف حالك,http://bildstod.se/image/get/391,how_are_you.jpg,FALSE,TRUE
+175,Daily life,Park,Park,حديقة,http://bildstod.se/image/get/3473,park.jpg,FALSE,TRUE
+176,Daily life,Café,Café,مقهى,http://bildstod.se/image/get/9294,café.jpg,FALSE,TRUE
+177,Daily life,Cinema,Bio,سينما,http://bildstod.se/image/get/6005,cinema.jpg,FALSE,TRUE
+178,Daily life,School,Skola,مدرسة,http://bildstod.se/image/get/7260,school.jpg,FALSE,TRUE
+179,Daily life,Draw,Rita,يرسم,http://bildstod.se/image/get/660,draw.jpg,FALSE,TRUE
+180,Daily life,Read,Läsa,يقرأ,http://bildstod.se/image/get/4279,read.jpg,FALSE,TRUE
+181,Daily life,Write,Skriva,يكتب,http://bildstod.se/image/get/7646,write.jpg,FALSE,TRUE
+182,Daily life,Home Work,Läxa,واجب مدرسي,http://bildstod.se/image/get/650,home_work.jpg,FALSE,TRUE
+183,Daily life,Shower,Duscha,يستحم,http://bildstod.se/image/get/3102,shower.jpg,FALSE,TRUE
+184,Daily life,Wash hands,Tvätta händerna,بغسل يديه,http://bildstod.se/image/get/3528,wash_hands.jpg,FALSE,TRUE
+185,Daily life,Brush teeth,Borsta tänderna,تنظيف الاسنان,http://bildstod.se/image/get/9260,brush_teeth.jpg,FALSE,TRUE
+186,Daily life,Change,Byta om,يبدل ملابس,http://bildstod.se/image/get/5336,change.jpg,FALSE,TRUE
+187,Daily life,Music,Musik,موسيقى,http://bildstod.se/image/get/5323,music.jpg,FALSE,TRUE
+188,Daily life,Toilet,Toalett,مرحاض,http://bildstod.se/image/get/3449,toilet.jpg,FALSE,TRUE
+189,Daily life,Sleep,Sova,نائم,http://bildstod.se/image/get/6897,sleep.jpg,FALSE,TRUE
+190,Daily life,Cold,Kall,بارد,http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/cold_2.png,cold.png,FALSE,TRUE
+191,Daily life,Hot,Varm,ساخن,http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/hot_2.png,hot.png,FALSE,TRUE
+192,Daily life,Migration Agency,Migrationsverket,مصلحة الھجرة,http://bildstod.se/image/get/8005,migration_agency.jpg,FALSE,TRUE
+193,Feelings,Happy,Glad,سعيد,http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/boy_1.png,happy.png,FALSE,TRUE
+194,Feelings,Sad,Ledsen,حزين,http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/sad.png,sad.png,FALSE,TRUE
+195,Feelings,Worried,Orolig,قلق,http://bildstod.se/image/get/9549,worried.jpg,FALSE,TRUE
+196,Feelings,Bored,Uttråkad,يشعر بالملل,http://bildstod.se/image/get/2649,bored.jpg,FALSE,TRUE
+197,Feelings,Depressed,Deprimerad,مكتئب,http://bildstod.se/image/get/4505,depressed.jpg,FALSE,TRUE
+198,Feelings,Afraid,Rädd,خائف,http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/to%20be%20frightened_2.png,afraid.png,FALSE,TRUE
+199,Feelings,Tired,Trött,تعب,http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/tired_4.png,tired.png,FALSE,TRUE
+200,Feelings,Excited,Förväntansfull,مستمتع,http://bildstod.se/image/get/8478,excited.jpg,FALSE,TRUE
+201,Feelings,Hungry,Hungrig,جائع,http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/hungry.png,hungry.png,FALSE,TRUE
+202,Feelings,Thirsty,Törstig,عطشان,http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/thirsty.png,thirsty.png,FALSE,TRUE
+203,Feelings,Lonely,Ensam,وحيد,http://bildstod.se/image/get/7448,lonely.jpg,FALSE,TRUE
+204,Feelings,Thankful,Tacksam,"ممتن ,شاكر",http://bildstod.se/image/get/7686,thankful.jpg,FALSE,TRUE
+205,Feelings,Satisfied,Nöjd,يشعر بالرضى,http://symbolmanager.ecs.soton.ac.uk/images/Designer/I%20am%20fine(F).jpg,satisfied.jpg,FALSE,TRUE
+206,Feelings,Alert,Pigg,منتبه,http://bildstod.se/image/get/1807,alert.jpg,FALSE,TRUE
+207,Feelings,Angry,Arg,غاضب,http://bildstod.se/image/get/3120,angry.jpg,FALSE,TRUE
+208,Feelings,Motivated,Motiverad,"متحمس ,يشعربالحماس",http://bildstod.se/image/get/15020,motivated.jpg,FALSE,TRUE
+209,Feelings,Cold,Fryser,يشعر بالبرد,http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/cold_3.png,cold.png,FALSE,TRUE
+210,Feelings,Embarrassed,Generad,"يشعر بالاحراج ,محرج ",http://bildstod.se/image/get/1073,embarrassed.jpg,FALSE,TRUE
+211,Feelings,Love,Älska,يحب,http://bildstod.se/image/get/7427,love.jpg,FALSE,TRUE
+212,Feelings,Fun,Roligt,ممتع,http://bildstod.se/image/get/17338,fun.jpg,FALSE,TRUE
+213,Feelings,Missing,Saknar,يشتاق,http://bildstod.se/image/get/222,missing.jpg,FALSE,TRUE
+214,Feelings,Pain,Smärta,ألم,http://bildstod.se/image/get/19300,pain.jpg,FALSE,TRUE
+215,Feelings,Nausia,Illamående,غثيان,http://bildstod.se/image/get/24012,nausia.jpg,FALSE,TRUE
+216,Feelings,Warm,Varm,دافئ,http://symbolmanager.ecs.soton.ac.uk/images/Designer/copyof-copyof-copyof-Hot%20sun.png,warm.png,FALSE,TRUE

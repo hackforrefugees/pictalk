@@ -1,0 +1,2161 @@
+var picInJson = [{
+  id: 1,
+  category: "Core",
+  english: "I",
+  swedish: "Jag",
+  arabic: "انا",
+  url: "http://bildstod.se/image/get/7048",
+  file: "i.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 2,
+  category: "Core",
+  english: "To",
+  swedish: "Till",
+  arabic: "إلى",
+  url: "http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/to.png",
+  file: "to.png",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 3,
+  category: "Core",
+  english: "In",
+  swedish: "I",
+  arabic: "في",
+  url: "http://bildstod.se/image/get/6397",
+  file: "in.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 4,
+  category: "Core",
+  english: "You",
+  swedish: "Du/Ni",
+  arabic: "انت , انتم",
+  url: "http://symbolmanager.ecs.soton.ac.uk/images/Designer/you_4.png",
+  file: "you.png",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 5,
+  category: "Core",
+  english: "Yes",
+  swedish: "Ja",
+  arabic: "نعم",
+  url: "http://bildstod.se/image/get/2318",
+  file: "yes.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 6,
+  category: "Core",
+  english: "No",
+  swedish: "Nej",
+  arabic: "لا",
+  url: "http://bildstod.se/image/get/2577",
+  file: "no.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 7,
+  category: "Core",
+  english: "Have",
+  swedish: "Har",
+  arabic: "لديه , عنده",
+  url: "http://bildstod.se/image/get/1285",
+  file: "have.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 8,
+  category: "Core",
+  english: "Like",
+  swedish: "Gilla",
+  arabic: "يحب",
+  url: "http://bildstod.se/image/get/8478",
+  file: "like.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 9,
+  category: "Core",
+  english: "Me",
+  swedish: "Mig",
+  arabic: "انا",
+  url: "http://bildstod.se/image/get/7503",
+  file: "me.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 10,
+  category: "Core",
+  english: "Do",
+  swedish: "Göra",
+  arabic: "يعمل , يفعل",
+  url: "http://bildstod.se/image/get/6682",
+  file: "do.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 11,
+  category: "Core",
+  english: "On",
+  swedish: "På",
+  arabic: "على",
+  url: "http://bildstod.se/image/get/6408",
+  file: "on.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 12,
+  category: "Core",
+  english: "People",
+  swedish: "Personer",
+  arabic: "الناس",
+  url: "http://bildstod.se/image/get/7313",
+  file: "people.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 13,
+  category: "Core",
+  english: "Know",
+  swedish: "Veta",
+  arabic: "يعرف",
+  url: "http://bildstod.se/image/get/8232",
+  file: "know.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 14,
+  category: "Core",
+  english: "With",
+  swedish: "Med",
+  arabic: "مع",
+  url: "http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/copyof-with.png",
+  file: "with.png",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 15,
+  category: "Core",
+  english: "They",
+  swedish: "De",
+  arabic: "هم",
+  url: "http://bildstod.se/image/get/7228",
+  file: "they.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 16,
+  category: "Core",
+  english: "What",
+  swedish: "Vad",
+  arabic: "ماذا ,ما",
+  url: "http://bildstod.se/image/get/483",
+  file: "what.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 17,
+  category: "Core",
+  english: "Not",
+  swedish: "Inte",
+  arabic: "لا",
+  url: "http://bildstod.se/image/get/6477",
+  file: "not.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 18,
+  category: "Core",
+  english: "She",
+  swedish: "Hon",
+  arabic: "هي",
+  url: "http://bildstod.se/image/get/7226",
+  file: "she.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 19,
+  category: "Core",
+  english: "He",
+  swedish: "Han",
+  arabic: "هو",
+  url: "http://bildstod.se/image/get/6067",
+  file: "he.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 20,
+  category: "Core",
+  english: "We",
+  swedish: "Vi",
+  arabic: "نحن",
+  url: "http://bildstod.se/image/get/8129",
+  file: "we.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 21,
+  category: "Core",
+  english: "Think",
+  swedish: "Tänka",
+  arabic: "يفكر",
+  url: "http://bildstod.se/image/get/8099",
+  file: "think.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 22,
+  category: "Core",
+  english: "One",
+  swedish: "En",
+  arabic: "واحد",
+  url: "http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/one_1.png",
+  file: "one.png",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 23,
+  category: "Core",
+  english: "When",
+  swedish: "När",
+  arabic: "متى",
+  url: "http://bildstod.se/image/get/2669",
+  file: "when.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 24,
+  category: "Core",
+  english: "Not",
+  swedish: "Inte",
+  arabic: "ليس",
+  url: "http://bildstod.se/image/get/7416",
+  file: "not.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 25,
+  category: "Core",
+  english: "Well",
+  swedish: "Bra",
+  arabic: "جيد",
+  url: "http://bildstod.se/image/get/2318",
+  file: "well.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 26,
+  category: "Core",
+  english: "Bad",
+  swedish: "Dålig",
+  arabic: "سيئ",
+  url: "http://bildstod.se/image/get/2577",
+  file: "bad.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 27,
+  category: "Core",
+  english: "How",
+  swedish: "Hur",
+  arabic: "كيف",
+  url: "http://bildstod.se/image/get/1021",
+  file: "how.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 28,
+  category: "Core",
+  english: "Or",
+  swedish: "Eller",
+  arabic: "أو",
+  url: "http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/which.png",
+  file: "or.png",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 29,
+  category: "Core",
+  english: "Time",
+  swedish: "Tid",
+  arabic: "وقت",
+  url: "http://bildstod.se/image/get/2203",
+  file: "time.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 30,
+  category: "Core",
+  english: "This",
+  swedish: "Detta",
+  arabic: "هذا",
+  url: "http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/copyof-copyof-this%20one.png",
+  file: "this.png",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 31,
+  category: "Core",
+  english: "Use",
+  swedish: "Använda",
+  arabic: "يستعمل",
+  url: "http://bildstod.se/image/get/1619",
+  file: "use.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 32,
+  category: "Core",
+  english: "There",
+  swedish: "Där",
+  arabic: "هناك",
+  url: "http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/there.png",
+  file: "there.png",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 33,
+  category: "Core",
+  english: "Work",
+  swedish: "Jobba",
+  arabic: "يعمل , يشتغل",
+  url: "http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/job_2.png",
+  file: "work.png",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 34,
+  category: "Core",
+  english: "Say",
+  swedish: "Säga",
+  arabic: "يقول",
+  url: "http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/to%20say.png",
+  file: "say.png",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 35,
+  category: "Core",
+  english: "From",
+  swedish: "Från",
+  arabic: "من",
+  url: "http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/from.png",
+  file: "from.png",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 36,
+  category: "Core",
+  english: "Walk",
+  swedish: "Gå",
+  arabic: "يمشي",
+  url: "http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/to%20walk_1.png",
+  file: "walk.png",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 37,
+  category: "Core",
+  english: "Can",
+  swedish: "Kan",
+  arabic: "يستطيع",
+  url: "http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/to%20be%20able%20to.png",
+  file: "can.png",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 38,
+  category: "Core",
+  english: "More",
+  swedish: "Mer",
+  arabic: "أكثر",
+  url: "http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/more_1.png",
+  file: "more.png",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 39,
+  category: "Core",
+  english: "Need",
+  swedish: "Behöver",
+  arabic: "يحتاج",
+  url: "http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/help_4.png",
+  file: "need.png",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 40,
+  category: "Core",
+  english: "Some",
+  swedish: "Några",
+  arabic: "بعض",
+  url: "http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/copyof-copyof-copyof-copyof-copyof-copyof-copyof-copyof-copyof-copyof-copyof-copyof-copyof-copyof-copyof-copyof-copyof-copyof-copyof-copyof-copyof-copyof-copyof-copyof-thumbnail.png",
+  file: "some.png",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 41,
+  category: "Core",
+  english: "Year",
+  swedish: "År",
+  arabic: "سنة",
+  url: "http://bildstod.se/image/get/16207",
+  file: "year.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 42,
+  category: "Core",
+  english: "Month",
+  swedish: "Månad",
+  arabic: "شهر",
+  url: "http://bildstod.se/image/get/7358",
+  file: "month.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 43,
+  category: "Core",
+  english: "Day",
+  swedish: "Dag",
+  arabic: "يوم",
+  url: "http://bildstod.se/image/get/3538",
+  file: "day.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 44,
+  category: "Core",
+  english: "Hour",
+  swedish: "Timme",
+  arabic: "ساعة",
+  url: "http://bildstod.se/image/get/7326",
+  file: "hour.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 45,
+  category: "Core",
+  english: "All",
+  swedish: "Alla",
+  arabic: "كل",
+  url: "http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/all%20-%20everything_1.png",
+  file: "all.png",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 46,
+  category: "Core",
+  english: "Help",
+  swedish: "Hjälpa",
+  arabic: "مساعدة",
+  url: "http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/help_4.png",
+  file: "help.png",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 47,
+  category: "Core",
+  english: "Get",
+  swedish: "Få",
+  arabic: "يستلم",
+  url: "http://bildstod.se/image/get/1557",
+  file: "get.png",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 48,
+  category: "Core",
+  english: "Speech",
+  swedish: "Tal",
+  arabic: "كلام",
+  url: "http://bildstod.se/image/get/5877",
+  file: "speech.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 49,
+  category: "Core",
+  english: "Most",
+  swedish: "Mesta",
+  arabic: "معظم",
+  url: "http://bildstod.se/image/get/10911",
+  file: "most.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 50,
+  category: "Core",
+  english: "Now",
+  swedish: "Nu",
+  arabic: "الأن",
+  url: "http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/now.png",
+  file: "now.png",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 51,
+  category: "Core",
+  english: "Which",
+  swedish: "Vilken",
+  arabic: "أي ؟",
+  url: "http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/which.png",
+  file: "which.png",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 52,
+  category: "Core",
+  english: "Who",
+  swedish: "Vem",
+  arabic: "من ؟",
+  url: "http://bildstod.se/image/get/2362",
+  file: "who.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 53,
+  category: "Core",
+  english: "Out",
+  swedish: "Ut",
+  arabic: "في الخارج",
+  url: "http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/out.png",
+  file: "out.png",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 54,
+  category: "Core",
+  english: "Their",
+  swedish: "Deras",
+  arabic: "-هم",
+  url: "http://bildstod.se/image/get/1292",
+  file: "their.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 55,
+  category: "Core",
+  english: "Been",
+  swedish: "Varit",
+  arabic: "كان",
+  url: "http://bildstod.se/image/get/5282",
+  file: "been.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 56,
+  category: "Core",
+  english: "First",
+  swedish: "Först",
+  arabic: "الأول",
+  url: "http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/copyof-copyof-copyof-copyof-copyof-copyof-copyof-copyof-copyof-copyof-copyof-copyof-copyof-copyof-copyof-copyof-copyof-thumbnail.png",
+  file: "first.png",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 57,
+  category: "Core",
+  english: "Different",
+  swedish: "Olika",
+  arabic: "فرق",
+  url: "http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/different.png",
+  file: "different.png",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 58,
+  category: "Core",
+  english: "Really?!",
+  swedish: "Verkligen?!",
+  arabic: "هل هذا صحيح !؟",
+  url: "http://bildstod.se/image/get/4312",
+  file: "really.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 59,
+  category: "Core",
+  english: "Things",
+  swedish: "Saker",
+  arabic: "أشياء",
+  url: "http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/things.png",
+  file: "things.png",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 60,
+  category: "Core",
+  english: "Two",
+  swedish: "Två",
+  arabic: "اثنين",
+  url: "http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/number%20two_1.png",
+  file: "two.png",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 61,
+  category: "Core",
+  english: "Boy",
+  swedish: "Pojke",
+  arabic: "ولد",
+  url: "http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/copyof-copyof-copyof-boy_3.png",
+  file: "boy.png",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 62,
+  category: "Core",
+  english: "Girl",
+  swedish: "Flicka",
+  arabic: "بنت",
+  url: "http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/copyof-little%20girl.png",
+  file: "girl.png",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 63,
+  category: "Core",
+  english: "Woman",
+  swedish: "Kvinna",
+  arabic: "إمرأة",
+  url: "http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/copyof-person_6.png",
+  file: "woman.png",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 64,
+  category: "Core",
+  english: "Man",
+  swedish: "Man",
+  arabic: "رجل",
+  url: "http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/copyof-person_5.png",
+  file: "man.png",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 65,
+  category: "Core",
+  english: "Sister",
+  swedish: "Syster",
+  arabic: "أخت",
+  url: "http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/sister.png",
+  file: "sister.png",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 66,
+  category: "Core",
+  english: "Brother",
+  swedish: "Bror",
+  arabic: "أخ",
+  url: "http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/brother.png",
+  file: "brother.png",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 67,
+  category: "Core",
+  english: "Mother",
+  swedish: "Mamma",
+  arabic: "أم",
+  url: "http://bildstod.se/image/get/3616",
+  file: "mother.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 68,
+  category: "Core",
+  english: "Dad",
+  swedish: "Pappa",
+  arabic: "أب",
+  url: "http://bildstod.se/image/get/3848",
+  file: "dad.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 69,
+  category: "Core",
+  english: "Grandmother",
+  swedish: "Mormor/farmor",
+  arabic: "جدة",
+  url: "http://bildstod.se/image/get/3101",
+  file: "grandmother.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 70,
+  category: "Core",
+  english: "Grandfather",
+  swedish: "Morfar/farfar",
+  arabic: "جد",
+  url: "http://bildstod.se/image/get/2648",
+  file: "grandfather.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 71,
+  category: "Core",
+  english: "Children",
+  swedish: "Barn",
+  arabic: "أولاد",
+  url: "http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/copyof-boys_2.png",
+  file: "children.png",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 72,
+  category: "Core",
+  english: "Family",
+  swedish: "Familj",
+  arabic: "أسرة",
+  url: "http://bildstod.se/image/get/3580",
+  file: "family.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 73,
+  category: "Core",
+  english: "Baby",
+  swedish: "Bebis",
+  arabic: "وليد",
+  url: "http://bildstod.se/image/get/6730",
+  file: "baby.jpg",
+  selected: 0,
+  selectable: 0
+}, {
+  id: 74,
+  category: "Health",
+  english: "Heart",
+  swedish: "Hjärta",
+  arabic: "قلب",
+  url: "http://bildstod.se/image/get/5175",
+  file: "heart.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 75,
+  category: "Health",
+  english: "Leg",
+  swedish: "Ben",
+  arabic: "رجل",
+  url: "http://bildstod.se/image/get/8103",
+  file: "leg.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 76,
+  category: "Health",
+  english: "Arm",
+  swedish: "Arm",
+  arabic: "ذراع",
+  url: "http://bildstod.se/image/get/4888",
+  file: "arm.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 77,
+  category: "Health",
+  english: "Stomach",
+  swedish: "Mage",
+  arabic: "معدة",
+  url: "http://bildstod.se/image/get/11627",
+  file: "stomach.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 78,
+  category: "Health",
+  english: "Chest",
+  swedish: "Bröst",
+  arabic: "صدر",
+  url: "http://bildstod.se/image/get/5407",
+  file: "chest.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 79,
+  category: "Health",
+  english: "Throat",
+  swedish: "Hals",
+  arabic: "حنجرة",
+  url: "http://bildstod.se/image/get/5864",
+  file: "throat.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 80,
+  category: "Health",
+  english: "Ear, Ears",
+  swedish: "Öra",
+  arabic: "اذن",
+  url: "http://bildstod.se/image/get/5425",
+  file: "ear_ears.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 81,
+  category: "Health",
+  english: "Eye, Eyes",
+  swedish: "Öga",
+  arabic: "عين",
+  url: "http://bildstod.se/image/get/6991",
+  file: "eye_eyes.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 82,
+  category: "Health",
+  english: "Head",
+  swedish: "Huvud",
+  arabic: "رأس",
+  url: "http://bildstod.se/image/get/4912",
+  file: "head.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 83,
+  category: "Health",
+  english: "Medicine",
+  swedish: "Medicin",
+  arabic: "دواء",
+  url: "http://bildstod.se/image/get/7721",
+  file: "medicine.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 84,
+  category: "Health",
+  english: "Pill",
+  swedish: "Tablett",
+  arabic: "حبة",
+  url: "http://bildstod.se/image/get/2868",
+  file: "pill.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 85,
+  category: "Health",
+  english: "Injection",
+  swedish: "Spruta",
+  arabic: "حقنة , ابرة",
+  url: "http://bildstod.se/image/get/5503",
+  file: "injection.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 86,
+  category: "Health",
+  english: "Blood pressure",
+  swedish: "Blodtryck",
+  arabic: "ضغط دم",
+  url: "http://bildstod.se/image/get/7793",
+  file: "blood_pressure.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 87,
+  category: "Health",
+  english: "Weight",
+  swedish: "Vikt",
+  arabic: "وزن",
+  url: "http://bildstod.se/image/get/4822",
+  file: "weight.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 88,
+  category: "Health",
+  english: "Cough",
+  swedish: "Hosta",
+  arabic: "سعال",
+  url: "http://bildstod.se/image/get/5930",
+  file: "cough.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 89,
+  category: "Health",
+  english: "Doctor",
+  swedish: "Läkare",
+  arabic: "طبيب",
+  url: "http://bildstod.se/image/get/3670",
+  file: "doctor.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 90,
+  category: "Health",
+  english: "Nurse",
+  swedish: "Sjuksköterska",
+  arabic: "ممرضة",
+  url: "http://bildstod.se/image/get/8394",
+  file: "nurse.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 91,
+  category: "Health",
+  english: "Hospital",
+  swedish: "Sjukhus",
+  arabic: "مستشفى",
+  url: "http://bildstod.se/image/get/6941",
+  file: "hospital.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 92,
+  category: "Health",
+  english: "Aids",
+  swedish: "Hjälpmedel (ex. rullstol)",
+  arabic: "مساعدات",
+  url: "http://bildstod.se/image/get/1329",
+  file: "aids.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 93,
+  category: "Health",
+  english: "Measure Length",
+  swedish: "Mäta längd",
+  arabic: "قياس الطول",
+  url: "http://bildstod.se/image/get/6463",
+  file: "measure_length.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 94,
+  category: "Health",
+  english: "Open mouth",
+  swedish: "Gapa",
+  arabic: "افتح فمك",
+  url: "http://bildstod.se/image/get/1566",
+  file: "open_mouth.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 95,
+  category: "Health",
+  english: "Band aid",
+  swedish: "Plåster",
+  arabic: "بلاستر , لاصق طبي",
+  url: "http://bildstod.se/image/get/7869",
+  file: "band_aid.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 96,
+  category: "Health",
+  english: "Pain",
+  swedish: "Smärta",
+  arabic: "ألم",
+  url: "http://bildstod.se/image/get/19300",
+  file: "pain.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 97,
+  category: "Health",
+  english: "Cavity",
+  swedish: "Hål",
+  arabic: "نخر في الاسنان",
+  url: "http://bildstod.se/image/get/2375",
+  file: "cavity.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 98,
+  category: "Health",
+  english: "Fever",
+  swedish: "Feber",
+  arabic: "حمى , ترفع حروري",
+  url: "http://bildstod.se/image/get/7053",
+  file: "fever.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 99,
+  category: "Health",
+  english: "Vomit",
+  swedish: "Kräkas",
+  arabic: "يستفرغ",
+  url: "http://bildstod.se/image/get/5332",
+  file: "vomit.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 100,
+  category: "Health",
+  english: "Nausia",
+  swedish: "Illamående",
+  arabic: "غثيان",
+  url: "http://bildstod.se/image/get/24012",
+  file: "nausia.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 101,
+  category: "Health",
+  english: "Depression",
+  swedish: "Depression",
+  arabic: "اكتئاب",
+  url: "http://bildstod.se/image/get/4505",
+  file: "depression.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 102,
+  category: "Health",
+  english: "Wound",
+  swedish: "Sår",
+  arabic: "جرح",
+  url: "http://bildstod.se/image/get/5357",
+  file: "wound.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 103,
+  category: "Health",
+  english: "Examine, check up",
+  swedish: "Hälsoundersökning",
+  arabic: "يفحص",
+  url: "http://bildstod.se/image/get/5171",
+  file: "examine_check_up.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 104,
+  category: "Food",
+  english: "Water",
+  swedish: "Vatten",
+  arabic: "ماء",
+  url: "http://bildstod.se/image/get/2652",
+  file: "water.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 105,
+  category: "Food",
+  english: "Milk",
+  swedish: "Mjölk",
+  arabic: "حليب",
+  url: "http://bildstod.se/image/get/3539",
+  file: "milk.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 106,
+  category: "Food",
+  english: "Juice",
+  swedish: "Juice",
+  arabic: "عصير",
+  url: "http://bildstod.se/image/get/879",
+  file: "juice.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 107,
+  category: "Food",
+  english: "Soda",
+  swedish: "Läsk",
+  arabic: "مياه غازية",
+  url: "http://bildstod.se/image/get/2778",
+  file: "soda.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 108,
+  category: "Food",
+  english: "Coffee",
+  swedish: "Kaffe",
+  arabic: "قهوة",
+  url: "http://bildstod.se/image/get/2737",
+  file: "coffee.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 109,
+  category: "Food",
+  english: "Tea",
+  swedish: "Te",
+  arabic: "شاي",
+  url: "http://bildstod.se/image/get/11723",
+  file: "tea.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 110,
+  category: "Food",
+  english: "Wine",
+  swedish: "Vin",
+  arabic: "نبيذ",
+  url: "http://bildstod.se/image/get/4553",
+  file: "wine.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 111,
+  category: "Food",
+  english: "Beer",
+  swedish: "Öl",
+  arabic: "بيرة",
+  url: "http://bildstod.se/image/get/2769",
+  file: "beer.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 112,
+  category: "Food",
+  english: "Food",
+  swedish: "Mat",
+  arabic: "أكل ,طعام",
+  url: "http://bildstod.se/image/get/6013",
+  file: "food.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 113,
+  category: "Food",
+  english: "Bread",
+  swedish: "Bröd",
+  arabic: "خبز",
+  url: "http://bildstod.se/image/get/3830",
+  file: "bread.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 114,
+  category: "Food",
+  english: "Butter",
+  swedish: "Smör",
+  arabic: "زبدة",
+  url: "http://bildstod.se/image/get/3634",
+  file: "butter.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 115,
+  category: "Food",
+  english: "Cheese",
+  swedish: "Ost",
+  arabic: "جبنة",
+  url: "http://bildstod.se/image/get/4085",
+  file: "cheese.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 116,
+  category: "Food",
+  english: "Breakfast",
+  swedish: "Frukost",
+  arabic: "فطور",
+  url: "http://bildstod.se/image/get/6028",
+  file: "breakfast.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 117,
+  category: "Food",
+  english: "Lunch",
+  swedish: "Lunch",
+  arabic: "غداء",
+  url: "http://bildstod.se/image/get/6014",
+  file: "lunch.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 118,
+  category: "Food",
+  english: "Dinner",
+  swedish: "Middag",
+  arabic: "عشاء",
+  url: "http://bildstod.se/image/get/5995",
+  file: "dinner.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 119,
+  category: "Food",
+  english: "Coffee Break",
+  swedish: "Fika",
+  arabic: "استراحة قهوة",
+  url: "http://bildstod.se/image/get/11721",
+  file: "coffee_break.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 120,
+  category: "Food",
+  english: "Fruit",
+  swedish: "Frukt",
+  arabic: "فواكه",
+  url: "http://bildstod.se/image/get/6055",
+  file: "fruit.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 121,
+  category: "Food",
+  english: "Vegetables",
+  swedish: "Grönsaker",
+  arabic: "خضار",
+  url: "http://bildstod.se/image/get/11896",
+  file: "vegetables.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 122,
+  category: "Food",
+  english: "Meat",
+  swedish: "Kött",
+  arabic: "لحمة",
+  url: "http://bildstod.se/image/get/2756",
+  file: "meat.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 123,
+  category: "Food",
+  english: "Pasta",
+  swedish: "Pasta",
+  arabic: "معكرونة",
+  url: "http://bildstod.se/image/get/8090",
+  file: "pasta.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 124,
+  category: "Food",
+  english: "Potatoes",
+  swedish: "Potatis",
+  arabic: "بطاطا",
+  url: "http://bildstod.se/image/get/3885",
+  file: "potatoes.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 125,
+  category: "Food",
+  english: "Rice",
+  swedish: "Ris",
+  arabic: "رز",
+  url: "http://bildstod.se/image/get/7112",
+  file: "rice.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 126,
+  category: "Food",
+  english: "Candy",
+  swedish: "Godis",
+  arabic: "حلويات",
+  url: "http://bildstod.se/image/get/2629",
+  file: "candy.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 127,
+  category: "Food",
+  english: "Chocolate",
+  swedish: "Choklad",
+  arabic: "شوكولا",
+  url: "http://bildstod.se/image/get/2773",
+  file: "chocolate.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 128,
+  category: "Food",
+  english: "Fish",
+  swedish: "Fisk",
+  arabic: "سمك",
+  url: "http://bildstod.se/image/get/7396",
+  file: "fish.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 129,
+  category: "Food",
+  english: "Chicken",
+  swedish: "Kyckling",
+  arabic: "دجاج",
+  url: "http://bildstod.se/image/get/6254",
+  file: "chicken.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 130,
+  category: "Food",
+  english: "Eat",
+  swedish: "Äta",
+  arabic: "يأكل",
+  url: "http://bildstod.se/image/get/14620",
+  file: "eat.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 131,
+  category: "Food",
+  english: "Drink",
+  swedish: "Dricka",
+  arabic: "يشرب",
+  url: "http://bildstod.se/image/get/2696",
+  file: "drink.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 132,
+  category: "Shopping",
+  english: "Buy",
+  swedish: "Köpa",
+  arabic: "يشتري",
+  url: "http://bildstod.se/image/get/1714",
+  file: "buy.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 133,
+  category: "Shopping",
+  english: "Money",
+  swedish: "Pengar",
+  arabic: "مصاري",
+  url: "http://bildstod.se/image/get/6032",
+  file: "money.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 134,
+  category: "Shopping",
+  english: "Clothes",
+  swedish: "Kläder",
+  arabic: "ملابس",
+  url: "http://bildstod.se/image/get/7428",
+  file: "clothes.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 135,
+  category: "Shopping",
+  english: "Shirt",
+  swedish: "Tröja",
+  arabic: "قميص",
+  url: "http://bildstod.se/image/get/2749",
+  file: "shirt.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 136,
+  category: "Shopping",
+  english: "Pants",
+  swedish: "Byxor",
+  arabic: "بنطلون",
+  url: "http://bildstod.se/image/get/4258",
+  file: "pants.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 137,
+  category: "Shopping",
+  english: "Jacket",
+  swedish: "Jacka",
+  arabic: "سترة ,جاكيت",
+  url: "http://bildstod.se/image/get/2759",
+  file: "jacket.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 138,
+  category: "Shopping",
+  english: "Gloves",
+  swedish: "Vantar",
+  arabic: "قفازات , كفوف",
+  url: "http://bildstod.se/image/get/5470",
+  file: "gloves.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 139,
+  category: "Shopping",
+  english: "Knit Cap",
+  swedish: "Mössa",
+  arabic: "قبة ,طاقية",
+  url: "http://bildstod.se/image/get/3344",
+  file: "knit_cap.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 140,
+  category: "Shopping",
+  english: "Shoes",
+  swedish: "Skor",
+  arabic: "احذية ,حذاء",
+  url: "http://bildstod.se/image/get/4600",
+  file: "shoes.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 141,
+  category: "Shopping",
+  english: "Store",
+  swedish: "Affär",
+  arabic: "محل",
+  url: "http://bildstod.se/image/get/7034",
+  file: "store.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 142,
+  category: "Shopping",
+  english: "Grocery Store",
+  swedish: "Mataffär",
+  arabic: "دكان ,سوبر ماركت",
+  url: "http://bildstod.se/image/get/8183",
+  file: "grocery_store.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 143,
+  category: "Shopping",
+  english: "Money Exchange",
+  swedish: "Växla pengar",
+  arabic: "تصريف عملة",
+  url: "http://bildstod.se/image/get/2070",
+  file: "money_exchange.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 144,
+  category: "Shopping",
+  english: "Receipt",
+  swedish: "Kvitto",
+  arabic: "فاتورة",
+  url: "http://bildstod.se/image/get/8382",
+  file: "receipt.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 145,
+  category: "Transportation",
+  english: "Bus",
+  swedish: "Buss",
+  arabic: "حافلة ,باص",
+  url: "http://bildstod.se/image/get/2673",
+  file: "bus.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 146,
+  category: "Transportation",
+  english: "Car",
+  swedish: "Bil",
+  arabic: "سيارة",
+  url: "http://bildstod.se/image/get/2779",
+  file: "car.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 147,
+  category: "Transportation",
+  english: "Cab",
+  swedish: "Taxi",
+  arabic: "سيارة اجرة , تاكسي",
+  url: "http://bildstod.se/image/get/4350",
+  file: "cab.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 148,
+  category: "Transportation",
+  english: "Train",
+  swedish: "Tåg",
+  arabic: "قطار",
+  url: "http://bildstod.se/image/get/4487",
+  file: "train.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 149,
+  category: "Transportation",
+  english: "Tram",
+  swedish: "Spårvagn",
+  arabic: "ترام",
+  url: "http://bildstod.se/image/get/4482",
+  file: "tram.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 150,
+  category: "Transportation",
+  english: "Airplane",
+  swedish: "Flyg",
+  arabic: "طائرة",
+  url: "http://bildstod.se/image/get/2678",
+  file: "airplane.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 151,
+  category: "Transportation",
+  english: "Boat",
+  swedish: "Båt",
+  arabic: "قارب",
+  url: "http://bildstod.se/image/get/1136",
+  file: "boat.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 152,
+  category: "Transportation",
+  english: "Bicycle",
+  swedish: "Cykel",
+  arabic: "دراجة",
+  url: "http://bildstod.se/image/get/2702",
+  file: "bicycle.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 153,
+  category: "Transportation",
+  english: "Right",
+  swedish: "Höger",
+  arabic: "يمين",
+  url: "http://bildstod.se/image/get/8400",
+  file: "right.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 154,
+  category: "Transportation",
+  english: "Left",
+  swedish: "Vänster",
+  arabic: "يسار",
+  url: "http://bildstod.se/image/get/8401",
+  file: "left.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 155,
+  category: "Transportation",
+  english: "Straight Forward",
+  swedish: "Rakt fram",
+  arabic: "مباشر , على طول",
+  url: "http://bildstod.se/image/get/2325",
+  file: "straight_forward.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 156,
+  category: "Transportation",
+  english: "Back",
+  swedish: "Tillbaka",
+  arabic: "وراء",
+  url: "http://bildstod.se/image/get/6860",
+  file: "back.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 157,
+  category: "Transportation",
+  english: "Behind",
+  swedish: "Bakom",
+  arabic: "وراء",
+  url: "http://bildstod.se/image/get/6401",
+  file: "behind.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 158,
+  category: "Transportation",
+  english: "Travel direction",
+  swedish: "Vägbeskrivning",
+  arabic: "اتجاهات",
+  url: "http://bildstod.se/image/get/3367",
+  file: "travel_direction.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 159,
+  category: "Transportation",
+  english: "Where is?",
+  swedish: "Var ligger?",
+  arabic: "اين",
+  url: "http://bildstod.se/image/get/7277",
+  file: "where_is.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 160,
+  category: "Transportation",
+  english: "Time",
+  swedish: "Tid",
+  arabic: "وقت",
+  url: "http://bildstod.se/image/get/7279",
+  file: "time.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 161,
+  category: "Transportation",
+  english: "Delay",
+  swedish: "Försening",
+  arabic: "تأخير",
+  url: "http://bildstod.se/image/get/23651",
+  file: "delay.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 162,
+  category: "Transportation",
+  english: "Cancelled",
+  swedish: "Inställt",
+  arabic: "ملغىاة",
+  url: "http://bildstod.se/image/get/6477",
+  file: "cancelled.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 163,
+  category: "Transportation",
+  english: "Walk",
+  swedish: "Gå",
+  arabic: "يمشي",
+  url: "http://bildstod.se/image/get/6715",
+  file: "walk.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 164,
+  category: "Transportation",
+  english: "Passport",
+  swedish: "Pass",
+  arabic: "جواز سفر",
+  url: "http://bildstod.se/image/get/6784",
+  file: "passport.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 165,
+  category: "Transportation",
+  english: "Ticket",
+  swedish: "Biljett",
+  arabic: "تذكرة",
+  url: "http://bildstod.se/image/get/677",
+  file: "ticket.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 166,
+  category: "Daily life",
+  english: "TV",
+  swedish: "TV",
+  arabic: "تلفاز",
+  url: "http://bildstod.se/image/get/7787",
+  file: "tv.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 167,
+  category: "Daily life",
+  english: "Computer",
+  swedish: "Dator",
+  arabic: "جهاز حاسوب , كومبيوتر",
+  url: "http://bildstod.se/image/get/7410",
+  file: "computer.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 168,
+  category: "Daily life",
+  english: "Mobile",
+  swedish: "Mobil",
+  arabic: "هاتف محمول , موبايل",
+  url: "http://bildstod.se/image/get/4028",
+  file: "mobile.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 169,
+  category: "Daily life",
+  english: "Charger",
+  swedish: "Laddare",
+  arabic: "شاحن",
+  url: "http://bildstod.se/image/get/1914",
+  file: "charger.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 170,
+  category: "Daily life",
+  english: "Play",
+  swedish: "Leka",
+  arabic: "بلعب",
+  url: "http://bildstod.se/image/get/3504",
+  file: "play.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 171,
+  category: "Daily life",
+  english: "Eat",
+  swedish: "Äta",
+  arabic: "يأكل",
+  url: "http://bildstod.se/image/get/14620",
+  file: "eat.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 172,
+  category: "Daily life",
+  english: "Drink",
+  swedish: "Dricka",
+  arabic: "يشرب",
+  url: "http://bildstod.se/image/get/2696",
+  file: "drink.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 173,
+  category: "Daily life",
+  english: "Walk",
+  swedish: "Gå",
+  arabic: "بمشي",
+  url: "http://bildstod.se/image/get/6715",
+  file: "walk.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 174,
+  category: "Daily life",
+  english: "How are you?",
+  swedish: "Hur mår du?",
+  arabic: "كيف حالك",
+  url: "http://bildstod.se/image/get/391",
+  file: "how_are_you.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 175,
+  category: "Daily life",
+  english: "Park",
+  swedish: "Park",
+  arabic: "حديقة",
+  url: "http://bildstod.se/image/get/3473",
+  file: "park.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 176,
+  category: "Daily life",
+  english: "Café",
+  swedish: "Café",
+  arabic: "مقهى",
+  url: "http://bildstod.se/image/get/9294",
+  file: "café.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 177,
+  category: "Daily life",
+  english: "Cinema",
+  swedish: "Bio",
+  arabic: "سينما",
+  url: "http://bildstod.se/image/get/6005",
+  file: "cinema.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 178,
+  category: "Daily life",
+  english: "School",
+  swedish: "Skola",
+  arabic: "مدرسة",
+  url: "http://bildstod.se/image/get/7260",
+  file: "school.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 179,
+  category: "Daily life",
+  english: "Draw",
+  swedish: "Rita",
+  arabic: "يرسم",
+  url: "http://bildstod.se/image/get/660",
+  file: "draw.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 180,
+  category: "Daily life",
+  english: "Read",
+  swedish: "Läsa",
+  arabic: "يقرأ",
+  url: "http://bildstod.se/image/get/4279",
+  file: "read.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 181,
+  category: "Daily life",
+  english: "Write",
+  swedish: "Skriva",
+  arabic: "يكتب",
+  url: "http://bildstod.se/image/get/7646",
+  file: "write.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 182,
+  category: "Daily life",
+  english: "Home Work",
+  swedish: "Läxa",
+  arabic: "واجب مدرسي",
+  url: "http://bildstod.se/image/get/650",
+  file: "home_work.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 183,
+  category: "Daily life",
+  english: "Shower",
+  swedish: "Duscha",
+  arabic: "يستحم",
+  url: "http://bildstod.se/image/get/3102",
+  file: "shower.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 184,
+  category: "Daily life",
+  english: "Wash hands",
+  swedish: "Tvätta händerna",
+  arabic: "بغسل يديه",
+  url: "http://bildstod.se/image/get/3528",
+  file: "wash_hands.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 185,
+  category: "Daily life",
+  english: "Brush teeth",
+  swedish: "Borsta tänderna",
+  arabic: "تنظيف الاسنان",
+  url: "http://bildstod.se/image/get/9260",
+  file: "brush_teeth.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 186,
+  category: "Daily life",
+  english: "Change",
+  swedish: "Byta om",
+  arabic: "يبدل ملابس",
+  url: "http://bildstod.se/image/get/5336",
+  file: "change.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 187,
+  category: "Daily life",
+  english: "Music",
+  swedish: "Musik",
+  arabic: "موسيقى",
+  url: "http://bildstod.se/image/get/5323",
+  file: "music.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 188,
+  category: "Daily life",
+  english: "Toilet",
+  swedish: "Toalett",
+  arabic: "مرحاض",
+  url: "http://bildstod.se/image/get/3449",
+  file: "toilet.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 189,
+  category: "Daily life",
+  english: "Sleep",
+  swedish: "Sova",
+  arabic: "نائم",
+  url: "http://bildstod.se/image/get/6897",
+  file: "sleep.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 190,
+  category: "Daily life",
+  english: "Cold",
+  swedish: "Kall",
+  arabic: "بارد",
+  url: "http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/cold_2.png",
+  file: "cold.png",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 191,
+  category: "Daily life",
+  english: "Hot",
+  swedish: "Varm",
+  arabic: "ساخن",
+  url: "http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/hot_2.png",
+  file: "hot.png",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 192,
+  category: "Daily life",
+  english: "Migration Agency",
+  swedish: "Migrationsverket",
+  arabic: "مصلحة الھجرة",
+  url: "http://bildstod.se/image/get/8005",
+  file: "migration_agency.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 193,
+  category: "Feelings",
+  english: "Happy",
+  swedish: "Glad",
+  arabic: "سعيد",
+  url: "http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/boy_1.png",
+  file: "happy.png",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 194,
+  category: "Feelings",
+  english: "Sad",
+  swedish: "Ledsen",
+  arabic: "حزين",
+  url: "http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/sad.png",
+  file: "sad.png",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 195,
+  category: "Feelings",
+  english: "Worried",
+  swedish: "Orolig",
+  arabic: "قلق",
+  url: "http://bildstod.se/image/get/9549",
+  file: "worried.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 196,
+  category: "Feelings",
+  english: "Bored",
+  swedish: "Uttråkad",
+  arabic: "يشعر بالملل",
+  url: "http://bildstod.se/image/get/2649",
+  file: "bored.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 197,
+  category: "Feelings",
+  english: "Depressed",
+  swedish: "Deprimerad",
+  arabic: "مكتئب",
+  url: "http://bildstod.se/image/get/4505",
+  file: "depressed.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 198,
+  category: "Feelings",
+  english: "Afraid",
+  swedish: "Rädd",
+  arabic: "خائف",
+  url: "http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/to%20be%20frightened_2.png",
+  file: "afraid.png",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 199,
+  category: "Feelings",
+  english: "Tired",
+  swedish: "Trött",
+  arabic: "تعب",
+  url: "http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/tired_4.png",
+  file: "tired.png",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 200,
+  category: "Feelings",
+  english: "Excited",
+  swedish: "Förväntansfull",
+  arabic: "مستمتع",
+  url: "http://bildstod.se/image/get/8478",
+  file: "excited.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 201,
+  category: "Feelings",
+  english: "Hungry",
+  swedish: "Hungrig",
+  arabic: "جائع",
+  url: "http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/hungry.png",
+  file: "hungry.png",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 202,
+  category: "Feelings",
+  english: "Thirsty",
+  swedish: "Törstig",
+  arabic: "عطشان",
+  url: "http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/thirsty.png",
+  file: "thirsty.png",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 203,
+  category: "Feelings",
+  english: "Lonely",
+  swedish: "Ensam",
+  arabic: "وحيد",
+  url: "http://bildstod.se/image/get/7448",
+  file: "lonely.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 204,
+  category: "Feelings",
+  english: "Thankful",
+  swedish: "Tacksam",
+  arabic: "ممتن ,شاكر",
+  url: "http://bildstod.se/image/get/7686",
+  file: "thankful.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 205,
+  category: "Feelings",
+  english: "Satisfied",
+  swedish: "Nöjd",
+  arabic: "يشعر بالرضى",
+  url: "http://symbolmanager.ecs.soton.ac.uk/images/Designer/I%20am%20fine(F).jpg",
+  file: "satisfied.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 206,
+  category: "Feelings",
+  english: "Alert",
+  swedish: "Pigg",
+  arabic: "منتبه",
+  url: "http://bildstod.se/image/get/1807",
+  file: "alert.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 207,
+  category: "Feelings",
+  english: "Angry",
+  swedish: "Arg",
+  arabic: "غاضب",
+  url: "http://bildstod.se/image/get/3120",
+  file: "angry.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 208,
+  category: "Feelings",
+  english: "Motivated",
+  swedish: "Motiverad",
+  arabic: "متحمس ,يشعربالحماس",
+  url: "http://bildstod.se/image/get/15020",
+  file: "motivated.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 209,
+  category: "Feelings",
+  english: "Cold",
+  swedish: "Fryser",
+  arabic: "يشعر بالبرد",
+  url: "http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/cold_3.png",
+  file: "cold.png",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 210,
+  category: "Feelings",
+  english: "Embarrassed",
+  swedish: "Generad",
+  arabic: "يشعر بالاحراج ,محرج",
+  url: "http://bildstod.se/image/get/1073",
+  file: "embarrassed.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 211,
+  category: "Feelings",
+  english: "Love",
+  swedish: "Älska",
+  arabic: "يحب",
+  url: "http://bildstod.se/image/get/7427",
+  file: "love.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 212,
+  category: "Feelings",
+  english: "Fun",
+  swedish: "Roligt",
+  arabic: "ممتع",
+  url: "http://bildstod.se/image/get/17338",
+  file: "fun.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 213,
+  category: "Feelings",
+  english: "Missing",
+  swedish: "Saknar",
+  arabic: "يشتاق",
+  url: "http://bildstod.se/image/get/222",
+  file: "missing.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 214,
+  category: "Feelings",
+  english: "Pain",
+  swedish: "Smärta",
+  arabic: "ألم",
+  url: "http://bildstod.se/image/get/19300",
+  file: "pain.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 215,
+  category: "Feelings",
+  english: "Nausia",
+  swedish: "Illamående",
+  arabic: "غثيان",
+  url: "http://bildstod.se/image/get/24012",
+  file: "nausia.jpg",
+  selected: "FALSE",
+  selectable: "TRUE"
+}, {
+  id: 216,
+  category: "Feelings",
+  english: "Warm",
+  swedish: "Varm",
+  arabic: "دافئ",
+  url: "http://symbolmanager.ecs.soton.ac.uk/images/Designer/copyof-copyof-copyof-Hot%20sun.png",
+  file: "warm.png",
+  selected: "FALSE",
+  selectable: "TRUE"
+}]
