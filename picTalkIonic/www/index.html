@@ -37,10 +37,17 @@
     <ion-side-menu-content>
       <ion-header-bar class="bar-calm">
         <h1 class="title">PicTalk </h1>
-        <!-- New Pic button-->
+
+        <!--  PicTalk right button-->
+        <button class="button button-icon" ng-click="newPic()">
+          <i class="icon ion-ios-gear-outline"></i>
+        </button>
+
+        <!--  PicTalk left button-->
         <button class="button button-icon" ng-click="newPic()">
           <i class="icon ion-chatbox-working"></i>
         </button>
+
       </ion-header-bar>
 
       <!-- our list and list items -->
@@ -75,7 +82,7 @@
           <ion-item collection-repeat="pic in pics" item-width="50%" item-height="250px" on-tap="picOnTap(pic)" class="picTapped" on-swipe-right="onSwipeRight()">
             <img ng-src="img/pics/{{pic.file}}" class="full-image ">
             <div class="center caption" ng-style="myStyle" ng-click="$scope.picTouched= 2">
-              
+
               {{pic.arabic }} <br>
               {{pic.english }}
             </div>
@@ -133,6 +140,17 @@
     </div>
 
   </script>
+
+  <script id="home.html" type="text/ng-template">
+    <!-- The title of the ion-view will be shown on the navbar -->
+    <ion-view view-title="Home">
+      <ion-content ng-controller="SelectCtrl">
+        <!-- The content of the page -->
+        <a href="#/music">Go to music page!</a>
+      </ion-content>
+    </ion-view>
+  </script>
+
 
 
 

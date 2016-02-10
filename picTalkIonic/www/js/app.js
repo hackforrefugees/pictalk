@@ -5,6 +5,20 @@
 // the 2nd parameter is an array of 'requires'
 angular.module('picTalk', ['ionic'])
 
+app.config(function($stateProvider) {
+  $stateProvider
+    .state('index', {
+      url: '/',
+      templateUrl: 'home.html'
+      controller: 'SelectCtrl'
+    })
+    .state('music', {
+      url: '/music',
+      templateUrl: 'music.html'
+    });
+});
+
+
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
     if (window.cordova && window.cordova.plugins.Keyboard) {
