@@ -61,6 +61,11 @@ angular.module('picTalk', ['ionic'])
   };
 
 
+  $scope.deletePicInMessage = function(index) {
+    console.log("------");
+    $scope.messages.splice(index, 1);
+  };
+
 
   $scope.picOnTap = function(tappedPic) {
     console.log($scope.picTouched);
