@@ -2,21 +2,55 @@ angular.module('app.controllers', [])
 
 .controller('picTalkCtrl', function($scope, $ionicModal) {
   // No need for testing data anymore
-  $scope.messages = [];
+  $scope.messages = [{
+    id: 1,
+    category: "Core",
+    english: "I",
+    swedish: "Jag",
+    arabic: "انا",
+    url: "http://bildstod.se/image/get/7048",
+    file: "i.jpg",
+    selected: "FALSE",
+    selectable: "TRUE"
+  }, {
+    id: 1,
+    category: "Core",
+    english: "I",
+    swedish: "Jag",
+    arabic: "انا",
+    url: "http://bildstod.se/image/get/7048",
+    file: "i.jpg",
+    selected: "FALSE",
+    selectable: "TRUE"
+  }];
+
+
+
+  $scope.data = {
+    test: 'vddal'
+  };
+
+
 
   $scope.allPics = picInJson;
   $scope.currentCategory = "Core";
-  $scope.pics = picInJson;
+  $scope.pics =
+    picInJson;
   $scope.nativeLang = "english";
   $scope.transLang = "arabic";
 
-  // Create and load the Modal new-pic.html
-  $ionicModal.fromTemplateUrl('/templates/message.html', function(modal) {
-    $scope.picModal = modal;
-  }, {
-    scope: $scope,
-    animation: 'slide-in-up'
-  });
+
+
+  // Create and load the Modal
+
+  // $ionicModal.fromTemplateUrl('modal.html', {
+  //   scope: $scope,
+  //   animation: 'slide-in-up'
+  // }).then(function(modal) {
+  //   $scope.picModal = modal;
+  // });
+
+
 
   // Called when the form is submitted
   $scope.createPic = function(pic) {
@@ -49,7 +83,11 @@ angular.module('app.controllers', [])
     $scope.messages.push(
       tappedPic
     );
-    console.log($scope.messages);
+    console.log("$scope.messages is" + $scope.messages);
+    $scope.data.messages.push(
+      tappedPic
+    );
+    console.log("$scope.data.messages is" + $scope.data.messages);
   };
 
   $scope.picOnTouch = function() {
@@ -86,6 +124,15 @@ angular.module('app.controllers', [])
 })
 
 
+
+.controller('AppSubCtrl', function($scope) {})
+
+
+
 .controller('languagesCtrl', function($scope) {
+
+})
+
+.controller('ModalCtrl', function($scope) {
 
 });

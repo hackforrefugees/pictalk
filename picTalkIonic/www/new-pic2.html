@@ -1,0 +1,38 @@
+
+
+<div class="modal" >
+
+  <ion-header-bar class="bar-secondary">
+    <h1 class="title">Message</h1>
+    <button class="button button-icon" ng-click="closeMessage()">
+      <i class="icon ion-ios-close-empty"></i>
+    </button>
+    
+
+  </ion-header-bar>
+
+
+  <ion-content>
+
+    input:<input type="text" style="background-color:#ff9" ng-model="data.query" ng-change="search()" />
+        query:{{data.query}}
+
+
+    <ion-list can-swipe="true" show-delete="false">
+      <ion-item class="picVisible" collection-repeat="message in messages" item-width="100%" item-height="300px">
+        <img height="170px" ng-src="img/pics/{{message.file}}" width="170px">
+
+        <div class="translatedCaption">
+          {{message.swedish}}
+        </div>
+        <div class="translatedCaption">
+          {{message.english}}
+        </div>
+        <div class="translatedCaption">
+          {{message.arabic}}
+        </div>
+
+        <ion-option-button </ion-option-button class="button-assertive icon ion-trash-a" ng-click="deletePicInMessage($index)"></ion-item>
+      </ion-list>
+    </ion-content>
+  </div>

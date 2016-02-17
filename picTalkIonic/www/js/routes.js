@@ -47,6 +47,12 @@ angular.module('app.routes', [])
     controller: 'picTalkCtrl'
   })
 
+  .state('modal', {
+    url: '/modal',
+    templateUrl: 'templates/modal.html',
+    controller: 'picTalkCtrl'
+  })
+
 
   ;
 
