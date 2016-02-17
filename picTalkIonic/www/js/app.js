@@ -27,11 +27,32 @@ angular.module('picTalk', ['ionic'])
 
 .controller('SelectCtrl', function($scope, $ionicModal) {
   // No need for testing data anymore
-  $scope.messages = [];
+  $scope.messages = [{
+    id: 1,
+    category: "Core",
+    english: "I",
+    swedish: "Jag",
+    arabic: "انا",
+    url: "http://bildstod.se/image/get/7048",
+    file: "i.jpg",
+    selected: "FALSE",
+    selectable: "TRUE"
+  }, {
+    id: 1,
+    category: "Core",
+    english: "I",
+    swedish: "Jag",
+    arabic: "انا",
+    url: "http://bildstod.se/image/get/7048",
+    file: "i.jpg",
+    selected: "FALSE",
+    selectable: "TRUE"
+  }];
   $scope.allPics = picInJson;
   $scope.currentCategory = "Core";
   $scope.pics = picInJson;
-
+  $scope.nativeLang = "english";
+  $scope.transLang = "arabic"
 
   // Create and load the Modal
   $ionicModal.fromTemplateUrl('new-pic.html', function(modal) {
@@ -84,6 +105,11 @@ angular.module('picTalk', ['ionic'])
   $scope.onSwipeRight = function() {
     console.log("onSwipeRight");
     $scope.selectCategory("Health")
+  };
+
+
+  $scope.selectLang = function() {
+    console.log("//Selecting a language");
   };
 
   $scope.selectCategory = function(selectedCategory) {
