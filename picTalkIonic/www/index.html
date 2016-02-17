@@ -59,7 +59,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <ion-item collection-repeat="pic in pics" item-width="50%" item-height="300px" on-tap="picOnTap(pic)" class="picTapped" on-swipe-right="onSwipeRight()">
+                    <ion-item collection-repeat="pic in pics" item-width="50%" item-height="250px" on-tap="picOnTap(pic)" class="picTapped" on-swipe-right="onSwipeRight()">
                         <img ng-src="img/pics/{{pic.file}}" class="full-image ">
                         <div class="center caption" ng-style="myStyle" ng-click="$scope.picTouched= 2">
                             {{pic[language.native] }}
@@ -81,8 +81,12 @@
             <div class="modal">
                 <ion-header-bar class="bar-secondary">
                     <h1 class="title">Message</h1>
+                    <button class="button button-icon" ng-click="deleteMessage()">
+                        <i class="icon ion-ios-trash"></i>
+                    </button>
+                    
                     <button class="button button-icon" ng-click="closeMessage()">
-                        <i class="icon ion-ios-close-empty"></i>
+                        <i class="icon ion-arrow-shrink"></i>
                     </button>
                 </ion-header-bar>
                 <ion-content>

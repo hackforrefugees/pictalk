@@ -38,10 +38,10 @@ angular.module('picTalk', ['ionic'])
         $scope.picModal = modal;
     }, {
         scope: $scope,
-        animation: 'slide-in-up'
+        animation: 'scale-in'
     });
 
-     // Open our new pic modal
+    // Open our new pic modal
     $scope.openMessage = function() {
         $scope.picModal.show();
     };
@@ -49,6 +49,12 @@ angular.module('picTalk', ['ionic'])
     // Close the new pic modal
     $scope.closeMessage = function() {
         $scope.picModal.hide();
+    };
+
+    // delete the message
+    $scope.deleteMessage = function() {
+        $scope.messages = [];
+        $scope.closeMessage();
     };
 
     // Set Language  ------------------------------------------- 
@@ -72,10 +78,10 @@ angular.module('picTalk', ['ionic'])
     };
 
     $scope.language = {
-      native : 'swedish',
-      trans  : 'arabic'
+        native: 'swedish',
+        trans: 'arabic'
     }
-    
+
 
 
 
