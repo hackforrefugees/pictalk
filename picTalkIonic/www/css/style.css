@@ -82,4 +82,9 @@
     transition: all ease-in-out 250ms;
 }
 
+.footerPad{
+    background: teal;   
+    padding: 0px;
+}
+
 
