@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
@@ -30,9 +29,12 @@
                 <!-- New Pic button-->
                 <button class="button button-icon" ng-click="openLangSel()">
                     <i class="icon ion-ios-gear-outline"></i>
+                    
                 </button>
                 <button class="button button-icon" ng-click="openMessage()">
+                 
                     <i class="icon ion-chatbox-working"></i>
+
                 </button>
             </ion-header-bar>
             <!-- our list and list items -->
@@ -69,13 +71,7 @@
                 </div>
             </ion-content>
         </ion-side-menu-content>
-        <!-- Left menu -->
-        <!-- <ion-side-menu side="left">
-      <ion-header-bar class="bar-dark">
-        <h1 class="title">Recents</h1>
-      </ion-header-bar>
-    </ion-side-menu>
-  </ion-side-menus> -->
+
         <!-- The modal of message -->
         <script id="message.html" type="text/ng-template">
             <div class="modal">
@@ -84,27 +80,25 @@
                     <button class="button button-icon" ng-click="toggleDelete()">
                         {{editBtnText}}
                     </button>
-                    <button class="button button-icon" ng-click="closeMessage()">
+                    <button class="button button-icon" ng-click="closeMessage()" ng-show="!isDeletingItems">
                         <i class="icon ion-arrow-shrink"></i>
                     </button>
                 </ion-header-bar>
                 <ion-content>
                     <ion-list show-delete="isDeletingItems" show-reorder="isDeletingItems" on-refresh-holding="refreshHolding()" on-refresh-opening="refreshOpening(ratio)" on-refresh="refreshItems()" refresh-complete="refreshComplete" on-delete="" delete-icon="ion-minus-circled" reorder-icon="ion-navicon" animation="my-repeat-animation" can-delete="true" can-reorder="true" can-swipe="true" option-buttons="optionButtons1">
-                        <div class="item item-divider">
-                            Sentence 1
-                        </div>
+  
                         <ion-item item="item" ng-href="#" ng-click="itemClick()" class="item-thumbnail-left" ng-repeat="item in items" ng-class="{ active: item.isActive}">
                             <ion-delete-button class="ion-minus-circled" ng-click="deleteListItem(item, $index)"></ion-delete-button>
                             <img ng-src="img/pics/{{item.file}}">
                             <h2>{{item.swedish}}</h2>
-                            <p>{{item.english}}</p>
+                            <h2>{{item.english}}</h2>
                             <ion-reorder-button class="ion-navicon" on-reorder="moveItem(item, $fromIndex, $toIndex)">
                             </ion-reorder-button>
                         </ion-item>
+              
                     </ion-list>
                 </ion-content>
-                <div class="bar bar-footer bar-balanced">
-                    <div class="title">Delete & Create new</div>
+                <div class="bar bar-footer bar-assertive" ng-show="false">
                 </div>
             </div>
         </script>

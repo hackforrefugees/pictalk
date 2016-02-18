@@ -83,8 +83,7 @@ angular.module('picTalk', ['ionic'])
 
     // delete the message
     $scope.deleteMessage = function() {
-        $scope.messages = [];
-        $scope.closeMessage();
+        $scope.items = [];
     };
 
     // Set Language  ------------------------------------------- 
@@ -113,27 +112,15 @@ angular.module('picTalk', ['ionic'])
     }
 
 
-    $scope.shouldShowDelete = false;
-
-
-    $scope.deletePicInMessage = function(index) {
-        $scope.shouldShowDelete = false;
-        $scope.shouldShowDelete = true;
-        console.log("------");
-        $scope.messages.splice(index, 1);
-
-        $scope.shouldShowDelete = false;
-    };
-
 
     $scope.picOnTap = function(tappedPic) {
         console.log($scope.picTouched);
         //console.log("yoyo" + tappedPic.id);
         tappedPic.selected = true;
-        $scope.messages.push(
+        $scope.items.push(
             tappedPic
         );
-        console.log($scope.messages);
+        console.log($scope.items);
     };
 
     $scope.picOnTouch = function() {
