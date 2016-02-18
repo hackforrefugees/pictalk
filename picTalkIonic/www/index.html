@@ -81,38 +81,31 @@
             <div class="modal">
                 <ion-header-bar class="bar-secondary">
                     <h1 class="title">Message</h1>
-                    <button class="button button-icon" ng-click="deleteMessage()">
-                        <i class="icon ion-ios-trash"></i>
+                    <button class="button button-icon" ng-click="toggleDelete()">
+                        {{editBtnText}}
                     </button>
-                    
                     <button class="button button-icon" ng-click="closeMessage()">
                         <i class="icon ion-arrow-shrink"></i>
                     </button>
                 </ion-header-bar>
                 <ion-content>
-                    <ion-list show-delete="false" can-swipe="true">
-                        <ion-item collection-repeat="message in messages" item-width="100%">
-                            <div class="row">
-                                <div class="col">
-                                    <img ng-src="img/pics/{{message.file}}" width="170px" height="170px">
-                                </div>
-                                <div class="col">
-                                    <div class="translatedCaption">
-                                        {{message["swedish"]}}
-                                    </div>
-                                    <div class="translatedCaption">
-                                        {{message.english}}
-                                    </div>
-                                    <div class="translatedCaption">
-                                        {{message.arabic}}
-                                    </div>
-                                </div>
-                                <ion-option-button ng-click="deletePicInMessage($index)" class="button-assertive icon ion-trash-a" </ion-option-button>
-                            </div>
-                            <!-- The delete button -->
+                    <ion-list show-delete="isDeletingItems" show-reorder="isDeletingItems" on-refresh-holding="refreshHolding()" on-refresh-opening="refreshOpening(ratio)" on-refresh="refreshItems()" refresh-complete="refreshComplete" on-delete="" delete-icon="ion-minus-circled" reorder-icon="ion-navicon" animation="my-repeat-animation" can-delete="true" can-reorder="true" can-swipe="true" option-buttons="optionButtons1">
+                        <div class="item item-divider">
+                            Sentence 1
+                        </div>
+                        <ion-item item="item" ng-href="#" ng-click="itemClick()" class="item-thumbnail-left" ng-repeat="item in items" ng-class="{ active: item.isActive}">
+                            <ion-delete-button class="ion-minus-circled" ng-click="deleteListItem(item, $index)"></ion-delete-button>
+                            <img ng-src="img/pics/{{item.file}}">
+                            <h2>{{item.swedish}}</h2>
+                            <p>{{item.english}}</p>
+                            <ion-reorder-button class="ion-navicon" on-reorder="moveItem(item, $fromIndex, $toIndex)">
+                            </ion-reorder-button>
                         </ion-item>
                     </ion-list>
                 </ion-content>
+                <div class="bar bar-footer bar-balanced">
+                    <div class="title">Delete & Create new</div>
+                </div>
             </div>
         </script>
         <!-- The modal of setting languages -->
@@ -136,12 +129,9 @@
                                 <option value="farsi">Farsi</option>
                                 <option value="english">English</option>
                             </select>
-
-
                         </label>
                     </div>
-
-                       <div class="list">
+                    <div class="list">
                         <label class="item item-input item-select">
                             <div class="input-label">
                                 Translate to:
@@ -152,8 +142,6 @@
                                 <option value="farsi">Farsi</option>
                                 <option value="english">English</option>
                             </select>
-
-                            
                         </label>
                     </div>
                 </ion-content>

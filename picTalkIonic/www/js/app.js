@@ -25,9 +25,39 @@ angular.module('picTalk', ['ionic'])
 
 
 
-.controller('SelectCtrl', function($scope, $ionicModal) {
+.controller('SelectCtrl', function($scope, $ionicModal, $timeout) {
     // No need for testing data anymore
-    $scope.messages = [];
+    $scope.items = [{
+        id: 12,
+        category: "Core",
+        english: "People",
+        swedish: "Personer",
+        arabic: "الناس",
+        url: "http://bildstod.se/image/get/7313",
+        file: "people.jpg",
+        selected: "FALSE",
+        selectable: "TRUE"
+    }, {
+        id: 13,
+        category: "Core",
+        english: "Know",
+        swedish: "Veta",
+        arabic: "يعرف",
+        url: "http://bildstod.se/image/get/8232",
+        file: "know.jpg",
+        selected: "FALSE",
+        selectable: "TRUE"
+    }, {
+        id: 14,
+        category: "Core",
+        english: "With",
+        swedish: "Med",
+        arabic: "مع",
+        url: "http://symbolmanager.ecs.soton.ac.uk/images/ARASAAC/copyof-with.png",
+        file: "with.png",
+        selected: "FALSE",
+        selectable: "TRUE"
+    }];
     $scope.allPics = picInJson;
     $scope.currentCategory = "Core";
     $scope.pics = picInJson;
@@ -83,12 +113,16 @@ angular.module('picTalk', ['ionic'])
     }
 
 
-
+    $scope.shouldShowDelete = false;
 
 
     $scope.deletePicInMessage = function(index) {
+        $scope.shouldShowDelete = false;
+        $scope.shouldShowDelete = true;
         console.log("------");
         $scope.messages.splice(index, 1);
+
+        $scope.shouldShowDelete = false;
     };
 
 
@@ -111,6 +145,8 @@ angular.module('picTalk', ['ionic'])
         $scope.selectCategory("Health")
     };
 
+
+
     $scope.selectCategory = function(selectedCategory) {
         console.log(selectedCategory);
         var currentPics = [];
@@ -127,5 +163,66 @@ angular.module('picTalk', ['ionic'])
     };
 
     onLoadPage();
+
+    // copying ion-list
+
+
+    // List Toggles
+    $scope.editBtnText = 'Edit';
+    $scope.toggleDelete = function() {
+        $scope.isDeletingItems = !$scope.isDeletingItems;
+        $scope.isReorderingItems = false;
+        $scope.editBtnText = ($scope.isDeletingItems ? 'Done' : 'Edit');
+    };
+    $scope.reorderBtnText = 'Reorder';
+    $scope.toggleReorder = function() {
+        $scope.isReorderingItems = !$scope.isReorderingItems;
+        $scope.isDeletingItems = false;
+        $scope.reorderBtnText = ($scope.isReorderingItems ? 'Done' : 'Reorder');
+    };
+
+
+    $scope.itemClick = function() {
+        console.info('itemClick');
+        document.getElementById('click-notify').style.display = 'block';
+        setTimeout(function() {
+            document.getElementById('click-notify').style.display = 'none';
+        }, 500);
+    };
+
+    // Item Methods/Properties
+    $scope.deleteItem = function(item, index) {
+        console.log('onDelete from the "item" directive on-delete attribute. Lets not delete this item today ok!', item, index);
+    };
+    $scope.deleteListItem = function(item, index) {
+        console.log('onDelete from the "list" on-delete attribute', item, index);
+        $scope.items.splice(index, 1);
+
+    };
+  
+
+     $scope.moveItem = function(item, fromIndex, toIndex) {
+    //Move the item in the array
+    $scope.items.splice(fromIndex, 1);
+    $scope.items.splice(toIndex, 0, item);
+  };
+
+    $scope.optionButtons1 = [{
+        text: 'Edit',
+        onTap: function(item, button) { alert(button.text + ' Button: ' + item.text) }
+    }, {
+        text: 'Share',
+        type: 'button-balanced',
+        onTap: function(item, button) { alert(button.text + ' Button: ' + item.text) }
+    }];
+
+    $scope.optionButtons2 = [{
+        text: 'Cancel',
+        onTap: function() { alert('CANCEL!') }
+    }, {
+        text: 'Submit',
+        onTap: function() { alert('SUBMIT!') }
+    }];
+
 
 })
