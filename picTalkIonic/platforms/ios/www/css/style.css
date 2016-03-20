@@ -81,3 +81,32 @@
     -webkit-transition: all ease-in-out 250ms;
     transition: all ease-in-out 250ms;
 }
+
+.footerPad{
+    background: teal;   
+    padding: 0px;
+}
+
+
+.picTapped{
+        padding-bottom: 2px;
+        padding: 0px 0px 0px 0px;
+    }
+
+/* for 414px, iPhone 6 Plus or less */
+@media screen and (max-width: 414) {
+
+    .headerBar {
+      background-color: #333;
+    }
+
+
+
+
+
+}
+
+ .cat1{
+        height: 11000px
+    }
+    

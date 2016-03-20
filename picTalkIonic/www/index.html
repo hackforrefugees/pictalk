@@ -37,49 +37,42 @@
             </ion-header-bar>
             <!-- our list and list items -->
             <ion-content>
-                <button ng-click="initializeArray()">Test</button>
-                <ion-slide-box on-slide-changed="slideChanged($index)" class="">
+                <ion-slide-box on-slide-changed="slideChanged($index)">
                     <!-- Tab 1-->
                     <ion-slide>
-                        <div ng-repeat="pic in coreArray" on-tap="picOnTap(pic)" class=" row" ng-if="$index%2 == 0">
-                            <div class="col col-50">
-                                <img ng-src="img/pics/{{pic.file}}" class="full-image ">
-                                <div class="center caption" ng-style="myStyle" ng-click="$scope.picTouched= 2">
-                                    {{pic[language.native] }}
-                                    <br> {{pic[language.trans] }}
-                                </div>
+                        <ion-scroll scrollbar-y="false" style="height:800px; width:100%">
+                            <div>
+                                <ion-item collection-repeat="pic in coreArray" item-width="50%" item-height="200px" on-tap="picOnTap(pic)" class="picTapped">
+                                    <img ng-src="img/pics/{{pic.file}}" class="full-image ">
+                                    <div class="center caption" ng-style="myStyle" ng-click="$scope.picTouched= 2">
+                                        {{pic[language.native] }}
+                                        <br> {{pic[language.trans] }}
+                                    </div>
+                                </ion-item>
                             </div>
-                            <div class="col col-50">
-                            </div>
-                        </div>
+                        </ion-scroll>
                     </ion-slide>
-                        <!-- Tab 2-->
                     <ion-slide>
-                        <div ng-repeat="pic in healthArray" on-tap="picOnTap(pic)" class=" row" ng-if="$index%2 == 0">
-                            <div class="col col-50">
+                        <ion-scroll style="height: 500px;">
+                            <ion-item collection-repeat="pic in healthArray" item-width="50%" item-height="39%" on-tap="picOnTap(pic)" class="picTapped">
                                 <img ng-src="img/pics/{{pic.file}}" class="full-image ">
                                 <div class="center caption" ng-style="myStyle" ng-click="$scope.picTouched= 2">
                                     {{pic[language.native] }}
                                     <br> {{pic[language.trans] }}
                                 </div>
-                            </div>
-                            <div class="col col-50">
-                            </div>
-                        </div>
+                            </ion-item>
+                        </ion-scroll>
                     </ion-slide>
-                        <!-- Tab 3-->
-                    <ion-slide>
-                        <div ng-repeat="pic in feelingsArray" on-tap="picOnTap(pic)" class=" row" ng-if="$index%2 == 0">
-                            <div class="col col-50">
+                     <ion-slide>
+                        <ion-scroll style="height: 500px;">
+                            <ion-item collection-repeat="pic in feelingsArray" item-width="50%" item-height="39%" on-tap="picOnTap(pic)" class="picTapped">
                                 <img ng-src="img/pics/{{pic.file}}" class="full-image ">
                                 <div class="center caption" ng-style="myStyle" ng-click="$scope.picTouched= 2">
                                     {{pic[language.native] }}
                                     <br> {{pic[language.trans] }}
                                 </div>
-                            </div>
-                            <div class="col col-50">
-                            </div>
-                        </div>
+                            </ion-item>
+                        </ion-scroll>
                     </ion-slide>
                 </ion-slide-box>
                 <!-- categories horizontal scroll -->
