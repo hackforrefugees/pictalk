@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="188px" height="188px" viewBox="0 0 188 188" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="51.122719%" y1="0%" x2="51.122719%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#F7A61C" offset="0%"></stop>
+            <stop stop-color="#FF6600" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#F8952A" offset="0%"></stop>
+            <stop stop-color="#FA8A27" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-7" transform="translate(-39.000000, -35.000000)">
+            <g id="Group-2">
+                <g id="Group" transform="translate(39.707692, 35.246154)">
+                    <path d="M159.544615,27.5723077 C142.010769,10.0384615 118.676923,0.356923077 93.8261538,0.356923077 C42.6076923,0.356923077 0.981538462,42.0276923 0.936923077,93.2015385 C0.936923077,109.575385 5.22,125.547692 13.34,139.601538 L0.178461538,187.696923 L49.4338462,174.803077 C62.9969231,182.209231 78.2553846,186.090769 93.8261538,186.090769 L93.8707692,186.090769 L93.8707692,186.090769 C145.044615,186.090769 186.715385,144.42 186.76,93.2461538 C186.715385,68.44 177.078462,45.1061538 159.544615,27.5723077 L159.544615,27.5723077 Z M93.8261538,170.430769 L93.8261538,170.430769 C79.9507692,170.430769 66.3430769,166.683077 54.52,159.678462 L51.7092308,158.027692 L22.4861538,165.701538 L30.2938462,137.236923 L28.4646154,134.336923 C20.7461538,122.067692 16.6415385,107.835385 16.6415385,93.2461538 C16.6415385,50.6830769 51.3076923,16.0615385 93.8707692,16.0615385 C114.483077,16.0615385 133.890769,24.0923077 148.435385,38.6815385 C163.024615,53.2707692 171.055385,72.6784615 171.010769,93.2907692 C171.010769,135.809231 136.389231,170.430769 93.8261538,170.430769 L93.8261538,170.430769 Z" id="Shape" fill="url(#linearGradient-1)"></path>
+                    <rect id="Rectangle-1" fill="url(#linearGradient-2)" x="36.5846154" y="74.5076923" width="33.0153846" height="33.0153846"></rect>
+                    <ellipse id="Oval-1" fill="url(#linearGradient-2)" cx="95.0307692" cy="91.0153846" rx="16.5076923" ry="16.5076923"></ellipse>
+                    <polygon id="Triangle-1" fill="url(#linearGradient-2)" points="136.969231 74.5076923 153.476923 107.523077 120.461538 107.523077 "></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

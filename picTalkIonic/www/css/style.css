@@ -88,3 +88,21 @@
 }
 
 
+.picTapped{
+        padding-bottom: 2px;
+        padding: 0px 0px 0px 0px;
+    }
+
+/* for 414px, iPhone 6 Plus or less */
+@media screen and (max-width: 414) {
+
+    .headerBar {
+      background-color: #333;
+    }
+    
+
+
+
+}
+
+

@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width, height=device-height, target-densitydpi=device-dpi">
     <title></title>
     <link href="lib/ionic/css/ionic.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
@@ -39,15 +39,15 @@
             <ion-content>
                 <!-- categories horizontal scroll -->
             
-                <div class="row">
-                    <ion-item collection-repeat="pic in pics" item-width="50%" item-height="250px" on-tap="picOnTap(pic)" class="picTapped" on-swipe-right="onSwipeRight()">
+                
+                    <ion-item collection-repeat="pic in pics" item-width="50%" item-height="39%" on-tap="picOnTap(pic)" class="picTapped" on-swipe-right="onSwipeRight()">
                         <img ng-src="img/pics/{{pic.file}}" class="full-image ">
                         <div class="center caption" ng-style="myStyle" ng-click="$scope.picTouched= 2">
                             {{pic[language.native] }}
                             <br> {{pic[language.trans] }}
                         </div>
                     </ion-item>
-                </div>
+                
             </ion-content>
             <div class="bar bar-footer footerPad">
                    
@@ -87,8 +87,8 @@
                         <ion-item item="item" ng-href="#" ng-click="itemClick()" class="item-thumbnail-left" ng-repeat="item in items" ng-class="{ active: item.isActive}">
                             <ion-delete-button class="ion-minus-circled" ng-click="deleteListItem(item, $index)"></ion-delete-button>
                             <img ng-src="img/pics/{{item.file}}">
-                            <h2>{{item.swedish}}</h2>
-                            <h2>{{item.english}}</h2>
+                            <h2>{{item[language.native]}}</h2>
+                            <h2>{{item[language.trans]}}</h2>
                             <ion-reorder-button class="ion-navicon" on-reorder="moveItem(item, $fromIndex, $toIndex)">
                             </ion-reorder-button>
                         </ion-item>
