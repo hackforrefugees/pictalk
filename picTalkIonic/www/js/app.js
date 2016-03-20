@@ -25,7 +25,7 @@ angular.module('picTalk', ['ionic'])
 
 
 
-.controller('SelectCtrl', function($scope, $ionicModal, $timeout) {
+.controller('SelectCtrl', function($scope, $ionicModal, $timeout,$ionicSlideBoxDelegate) {
     // No need for testing data anymore
     $scope.items = [{
         id: 12,
@@ -61,6 +61,23 @@ angular.module('picTalk', ['ionic'])
     $scope.allPics = picInJson;
     $scope.currentCategory = "Core";
     $scope.pics = picInJson;
+    $scope.coreArray =[]
+    $scope.healthArray =[]
+    $scope.feelingsArray = []
+
+
+
+    $scope.initializeArray = function(){
+        for(var a = 0; a < $scope.allPics.length; a++){
+            var currentPic = $scope.allPics[a];
+            if (currentPic.category == "Core")
+                $scope.coreArray.push(currentPic)
+            else if (currentPic.category == "Health")
+                $scope.healthArray.push(currentPic)
+            else if (currentPic.category == "Feelings")
+                $scope.feelingsArray.push(currentPic)
+        }
+    }
 
     // Load Message Modal  ------------------------------------------- 
     // Create and load the Message Modal
@@ -147,6 +164,8 @@ angular.module('picTalk', ['ionic'])
 
     var onLoadPage = function() {
         console.log("onLoadPage");
+        $scope.initializeArray()
+
     };
 
     onLoadPage();
@@ -210,6 +229,20 @@ angular.module('picTalk', ['ionic'])
         text: 'Submit',
         onTap: function() { alert('SUBMIT!') }
     }];
+
+
+    //Play with slide box
+
+    $scope.slideChanged = function(index) {
+    $scope.slideIndex = index;
+  };
+
+    $scope.next = function() {
+    $ionicSlideBoxDelegate.next();
+  };
+  $scope.previous = function() {
+    $ionicSlideBoxDelegate.previous();
+  };
 
 
 })

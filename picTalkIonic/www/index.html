@@ -37,8 +37,53 @@
             </ion-header-bar>
             <!-- our list and list items -->
             <ion-content>
+                <button ng-click="initializeArray()">Test</button>
+                <ion-slide-box on-slide-changed="slideChanged($index)" class="">
+                    <!-- Tab 1-->
+                    <ion-slide>
+                        <div ng-repeat="pic in coreArray" on-tap="picOnTap(pic)" class=" row" ng-if="$index%2 == 0">
+                            <div class="col col-50">
+                                <img ng-src="img/pics/{{pic.file}}" class="full-image ">
+                                <div class="center caption" ng-style="myStyle" ng-click="$scope.picTouched= 2">
+                                    {{pic[language.native] }}
+                                    <br> {{pic[language.trans] }}
+                                </div>
+                            </div>
+                            <div class="col col-50">
+                            </div>
+                        </div>
+                    </ion-slide>
+                        <!-- Tab 2-->
+                    <ion-slide>
+                        <div ng-repeat="pic in healthArray" on-tap="picOnTap(pic)" class=" row" ng-if="$index%2 == 0">
+                            <div class="col col-50">
+                                <img ng-src="img/pics/{{pic.file}}" class="full-image ">
+                                <div class="center caption" ng-style="myStyle" ng-click="$scope.picTouched= 2">
+                                    {{pic[language.native] }}
+                                    <br> {{pic[language.trans] }}
+                                </div>
+                            </div>
+                            <div class="col col-50">
+                            </div>
+                        </div>
+                    </ion-slide>
+                        <!-- Tab 3-->
+                    <ion-slide>
+                        <div ng-repeat="pic in feelingsArray" on-tap="picOnTap(pic)" class=" row" ng-if="$index%2 == 0">
+                            <div class="col col-50">
+                                <img ng-src="img/pics/{{pic.file}}" class="full-image ">
+                                <div class="center caption" ng-style="myStyle" ng-click="$scope.picTouched= 2">
+                                    {{pic[language.native] }}
+                                    <br> {{pic[language.trans] }}
+                                </div>
+                            </div>
+                            <div class="col col-50">
+                            </div>
+                        </div>
+                    </ion-slide>
+                </ion-slide-box>
                 <!-- categories horizontal scroll -->
-            
+                <!-- 
                 
                     <ion-item collection-repeat="pic in pics" item-width="50%" item-height="39%" on-tap="picOnTap(pic)" class="picTapped" on-swipe-right="onSwipeRight()">
                         <img ng-src="img/pics/{{pic.file}}" class="full-image ">
@@ -46,28 +91,25 @@
                             {{pic[language.native] }}
                             <br> {{pic[language.trans] }}
                         </div>
-                    </ion-item>
-                
+                    </ion-item> -->
             </ion-content>
             <div class="bar bar-footer footerPad">
-                   
-                        <ion-scroll direction="" class="available-scroller" style="width: 100%;" scrollbar-x="false" scrollbar-y="false" has-bouncing="false">
-                            <div class="button-bar footerPad">
-                                <!-- Core -->
-                                <a class="button ion-ionic button button-calm" ng-click="selectCategory(&apos;Core&apos;)"></a>
-                                <!-- Health -->
-                                <a class="button ion-medkit button-assertive" ng-click="selectCategory(&apos;Health&apos;)"></a>
-                                <!-- Feelings -->
-                                <a class="button ion-android-happy button-energized" ng-click="selectCategory(&apos;Feelings&apos;)"></a>
-                                <!-- Food -->
-                                <a class="button ion-fork button button-balanced" ng-click="selectCategory(&apos;Food&apos;)"></a>
-                                <!-- Shopping -->
-                                <a class="button ion-bag button-royal" ng-click="selectCategory(&apos;Shopping&apos;)"></a>
-                                <!-- Transportation -->
-                                <a class="button ion-android-bus button-positive" ng-click="selectCategory(&apos;Transportation&apos;)"></a>
-                            </div>
-                        </ion-scroll>
-              
+                <ion-scroll direction="" class="available-scroller" style="width: 100%;" scrollbar-x="false" scrollbar-y="false" has-bouncing="false">
+                    <div class="button-bar footerPad">
+                        <!-- Core -->
+                        <a class="button ion-ionic button button-calm" ng-click="selectCategory(&apos;Core&apos;)"></a>
+                        <!-- Health -->
+                        <a class="button ion-medkit button-assertive" ng-click="selectCategory(&apos;Health&apos;)"></a>
+                        <!-- Feelings -->
+                        <a class="button ion-android-happy button-energized" ng-click="selectCategory(&apos;Feelings&apos;)"></a>
+                        <!-- Food -->
+                        <a class="button ion-fork button button-balanced" ng-click="selectCategory(&apos;Food&apos;)"></a>
+                        <!-- Shopping -->
+                        <a class="button ion-bag button-royal" ng-click="selectCategory(&apos;Shopping&apos;)"></a>
+                        <!-- Transportation -->
+                        <a class="button ion-android-bus button-positive" ng-click="selectCategory(&apos;Transportation&apos;)"></a>
+                    </div>
+                </ion-scroll>
             </div>
         </ion-side-menu-content>
         <!-- The modal of message -->
