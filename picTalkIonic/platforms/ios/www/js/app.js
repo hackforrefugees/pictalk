@@ -25,7 +25,7 @@ angular.module('picTalk', ['ionic'])
 
 
 
-.controller('SelectCtrl', function($scope, $ionicModal, $timeout,$ionicSlideBoxDelegate) {
+.controller('SelectCtrl', function($scope, $ionicModal, $timeout,$ionicSlideBoxDelegate,$window) {
     // No need for testing data anymore
     $scope.items = [{
         id: 12,
@@ -128,7 +128,9 @@ angular.module('picTalk', ['ionic'])
         trans: 'arabic'
     }
 
-
+    $scope.picOnHold = function(){
+        console.log("picOnHold")
+    }
 
     $scope.picOnTap = function(tappedPic) {
         console.log($scope.picTouched);
@@ -162,9 +164,26 @@ angular.module('picTalk', ['ionic'])
         $scope.pics = currentPics;
     };
 
+    //Designed for iOS
+    $scope.slideHeight;
+
+    $scope.calculateSize = function(){
+
+        var isIOS = ionic.Platform.isIOS();
+        var height = $window.innerHeight;
+
+        if (isIOS){
+          $scope.slideHeight = height - 108
+        }
+    }
+
     var onLoadPage = function() {
-        console.log("onLoadPage");
+
         $scope.initializeArray()
+        $scope.calculateSize()
+
+
+        
 
     };
 
@@ -240,9 +259,12 @@ angular.module('picTalk', ['ionic'])
     $scope.next = function() {
     $ionicSlideBoxDelegate.next();
   };
+
+
   $scope.previous = function() {
     $ionicSlideBoxDelegate.previous();
   };
+
 
 
 })

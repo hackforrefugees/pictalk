@@ -43,12 +43,16 @@
     text-align: right;
 }
 
-.picTouched {
+/*.picTouched {
     opacity: 0.5;
 }
 
 .picTapped:active {
     opacity: 0.5;
+}*/
+
+.picSelected{
+    
 }
 
 @media (max-width: 1600px) {
@@ -89,24 +93,38 @@
 
 
 .picTapped{
-        padding-bottom: 2px;
-        padding: 0px 0px 0px 0px;
+       
+        padding: 5px 5px 5px 5px;
     }
+
+
+/* for 320px, iPhone 5 Plus or less */
+@media screen and (max-width: 414) {
+
+}
 
 /* for 414px, iPhone 6 Plus or less */
 @media screen and (max-width: 414) {
 
-    .headerBar {
-      background-color: #333;
-    }
-
-
-
-
 
 }
 
- .cat1{
-        height: 11000px
-    }
+
+
+.centerImg{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+}
+
+.iconSize{
     
+  font-size: 90px;
+
+}
+
+
+
+
+

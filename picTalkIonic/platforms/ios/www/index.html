@@ -20,8 +20,7 @@
 </head>
 
 <body ng-app="picTalk" ng-controller="SelectCtrl" class="platform-ios platform-cordova platform-webview">
-    <ion-nav-view>
-    </ion-nav-view>
+
     <ion-side-menus>
         <!-- Center content -->
         <ion-side-menu-content>
@@ -37,13 +36,13 @@
             </ion-header-bar>
             <!-- our list and list items -->
             <ion-content>
-                <ion-slide-box on-slide-changed="slideChanged($index)">
+                <ion-slide-box on-slide-changed="slideChanged($index)" show-pager="false">
                     <!-- Tab 1-->
                     <ion-slide>
-                        <ion-scroll scrollbar-y="false" style="height:800px; width:100%">
+                        <ion-scroll scrollbar-y="false" style="height:{{slideHeight}}px;">
                             <div>
-                                <ion-item collection-repeat="pic in coreArray" item-width="50%" item-height="200px" on-tap="picOnTap(pic)" class="picTapped">
-                                    <img ng-src="img/pics/{{pic.file}}" class="full-image ">
+                                <ion-item collection-repeat="pic in coreArray" item-width="33%" item-height="155px" on-tap="picOnTap(pic)" class="picTapped ">
+                                    <img ng-src="img/pics/{{pic.file}}" width="100px" height "100px"="" class="centerImg">
                                     <div class="center caption" ng-style="myStyle" ng-click="$scope.picTouched= 2">
                                         {{pic[language.native] }}
                                         <br> {{pic[language.trans] }}
@@ -53,39 +52,32 @@
                         </ion-scroll>
                     </ion-slide>
                     <ion-slide>
-                        <ion-scroll style="height: 500px;">
-                            <ion-item collection-repeat="pic in healthArray" item-width="50%" item-height="39%" on-tap="picOnTap(pic)" class="picTapped">
-                                <img ng-src="img/pics/{{pic.file}}" class="full-image ">
+                        <ion-scroll scrollbar-y="false" style="height:{{slideHeight}}px;">
+                            <div>
+                                <ion-item collection-repeat="pic in healthArray" item-width="33%" item-height="155px" on-tap="picOnTap(pic)" class="picTapped ">
+                                    <img ng-src="img/pics/{{pic.file}}" width="100px" height "100px"="" class="centerImg">
+                                    <div class="center caption" ng-style="myStyle" ng-click="$scope.picTouched= 2">
+                                        {{pic[language.native] }}
+                                        <br> {{pic[language.trans] }}
+                                    </div>
+                                </ion-item>
+                            </div>
+                        </ion-scroll>
+                    </ion-slide>
+                    <ion-scroll scrollbar-y="false" style="height:{{slideHeight}}px;">
+                        <div>
+                            <ion-item collection-repeat="pic in feelingsArray" item-width="33%" item-height="155px" on-tap="picOnTap(pic)" class="picTapped ">
+                                <img ng-src="img/pics/{{pic.file}}" width="100px" height "100px"="" class="centerImg">
                                 <div class="center caption" ng-style="myStyle" ng-click="$scope.picTouched= 2">
                                     {{pic[language.native] }}
                                     <br> {{pic[language.trans] }}
                                 </div>
                             </ion-item>
-                        </ion-scroll>
-                    </ion-slide>
-                     <ion-slide>
-                        <ion-scroll style="height: 500px;">
-                            <ion-item collection-repeat="pic in feelingsArray" item-width="50%" item-height="39%" on-tap="picOnTap(pic)" class="picTapped">
-                                <img ng-src="img/pics/{{pic.file}}" class="full-image ">
-                                <div class="center caption" ng-style="myStyle" ng-click="$scope.picTouched= 2">
-                                    {{pic[language.native] }}
-                                    <br> {{pic[language.trans] }}
-                                </div>
-                            </ion-item>
-                        </ion-scroll>
-                    </ion-slide>
-                </ion-slide-box>
-                <!-- categories horizontal scroll -->
-                <!-- 
-                
-                    <ion-item collection-repeat="pic in pics" item-width="50%" item-height="39%" on-tap="picOnTap(pic)" class="picTapped" on-swipe-right="onSwipeRight()">
-                        <img ng-src="img/pics/{{pic.file}}" class="full-image ">
-                        <div class="center caption" ng-style="myStyle" ng-click="$scope.picTouched= 2">
-                            {{pic[language.native] }}
-                            <br> {{pic[language.trans] }}
                         </div>
-                    </ion-item> -->
+                    </ion-scroll>
+                </ion-slide-box>
             </ion-content>
+
             <div class="bar bar-footer footerPad">
                 <ion-scroll direction="" class="available-scroller" style="width: 100%;" scrollbar-x="false" scrollbar-y="false" has-bouncing="false">
                     <div class="button-bar footerPad">

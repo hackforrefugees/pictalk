@@ -25,7 +25,7 @@ angular.module('picTalk', ['ionic'])
 
 
 
-.controller('SelectCtrl', function($scope, $ionicModal, $timeout,$ionicSlideBoxDelegate) {
+.controller('SelectCtrl', function($scope, $ionicModal, $timeout, $ionicSlideBoxDelegate, $window) {
     // No need for testing data anymore
     $scope.items = [{
         id: 12,
@@ -61,14 +61,14 @@ angular.module('picTalk', ['ionic'])
     $scope.allPics = picInJson;
     $scope.currentCategory = "Core";
     $scope.pics = picInJson;
-    $scope.coreArray =[]
-    $scope.healthArray =[]
+    $scope.coreArray = []
+    $scope.healthArray = []
     $scope.feelingsArray = []
 
 
 
-    $scope.initializeArray = function(){
-        for(var a = 0; a < $scope.allPics.length; a++){
+    $scope.initializeArray = function() {
+        for (var a = 0; a < $scope.allPics.length; a++) {
             var currentPic = $scope.allPics[a];
             if (currentPic.category == "Core")
                 $scope.coreArray.push(currentPic)
@@ -128,21 +128,39 @@ angular.module('picTalk', ['ionic'])
         trans: 'arabic'
     }
 
+    $scope.picOnHold = function(event) {
+        console.log("picOnHold"+ event.target)
+
+        // $(event.target).addClass('justinB');
+    }
+
+    $scope.picOnTouch = function(event) {
+     console.log("picOnTouch")
+      var element = event.target;
+     angular.element(element).addClass('picFeedBack');
+    }
+
+     $scope.picOnDrag = function(event) {
+        console.log("picOnDrag")
+        var element = event.target;
+        angular.element(element).removeClass('picFeedBack');
+    }
+
+     $scope.picOnSwipe = function() {
+        console.log("picOnSwipe")
+    }
 
 
     $scope.picOnTap = function(tappedPic) {
-        console.log($scope.picTouched);
-        //console.log("yoyo" + tappedPic.id);
+        console.log("picOnTap")
+
         tappedPic.selected = true;
         $scope.items.push(
             tappedPic
         );
-        console.log($scope.items);
+
     };
 
-    $scope.picOnTouch = function() {
-        console.log("touched");
-    };
 
     $scope.onSwipeRight = function() {
         console.log("onSwipeRight");
@@ -162,9 +180,28 @@ angular.module('picTalk', ['ionic'])
         $scope.pics = currentPics;
     };
 
+    //Designed for iOS
+    $scope.slideHeight;
+
+    $scope.calculateSize = function() {
+
+        var isIOS = ionic.Platform.isIOS();
+        var height = $window.innerHeight;
+
+        if (isIOS) {
+            $scope.slideHeight = height - 108
+        } else {
+            $scope.slideHeight = 460
+        }
+    }
+
     var onLoadPage = function() {
-        console.log("onLoadPage");
+
         $scope.initializeArray()
+        $scope.calculateSize()
+
+
+
 
     };
 
@@ -205,13 +242,13 @@ angular.module('picTalk', ['ionic'])
         $scope.items.splice(index, 1);
 
     };
-  
 
-     $scope.moveItem = function(item, fromIndex, toIndex) {
-    //Move the item in the array
-    $scope.items.splice(fromIndex, 1);
-    $scope.items.splice(toIndex, 0, item);
-  };
+
+    $scope.moveItem = function(item, fromIndex, toIndex) {
+        //Move the item in the array
+        $scope.items.splice(fromIndex, 1);
+        $scope.items.splice(toIndex, 0, item);
+    };
 
     $scope.optionButtons1 = [{
         text: 'Edit',
@@ -234,15 +271,18 @@ angular.module('picTalk', ['ionic'])
     //Play with slide box
 
     $scope.slideChanged = function(index) {
-    $scope.slideIndex = index;
-  };
+        $scope.slideIndex = index;
+    };
 
     $scope.next = function() {
-    $ionicSlideBoxDelegate.next();
-  };
-  $scope.previous = function() {
-    $ionicSlideBoxDelegate.previous();
-  };
+        $ionicSlideBoxDelegate.next();
+    };
+
+
+    $scope.previous = function() {
+        $ionicSlideBoxDelegate.previous();
+    };
+
 
 
 })
