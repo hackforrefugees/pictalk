@@ -39,10 +39,11 @@
                 <ion-slide-box on-slide-changed="slideChanged($index)" show-pager="false">
                     <!-- Tab 1-->
                     <ion-slide>
+
                         <ion-scroll scrollbar-y="false" style="height:{{slideHeight}}px;">
                             <div>
-                                <ion-item collection-repeat="pic in coreArray" item-width="33%" item-height="155px" on-tap="picOnTap(pic)" on-touch="picOnTouch($event)" >
-                                    <img ng-src="img/pics/{{pic.file}}" width="100px" height "100px"="" class="centerImg">
+                                <ion-item collection-repeat="pic in coreArray" item-width="33.4%" item-height="155px" class="picPad">
+                                    <img ng-src="img/pics/{{pic.file}}" width="100px" height="" "100px"="" class="centerImg" on-tap="picOnTap(pic)" on-touch="picOnTouch($event)" on-drag="picOnDrag($event)">
                                     <div class="center caption" ng-style="myStyle" ng-click="$scope.picTouched= 2">
                                         {{pic[language.native] }}
                                         <br> {{pic[language.trans] }}
@@ -55,7 +56,7 @@
                         <ion-scroll scrollbar-y="false" style="height:{{slideHeight}}px;">
                             <div>
                                 <ion-item collection-repeat="pic in healthArray" item-width="33%" item-height="155px" on-tap="picOnTap(pic)" class="picTapped ">
-                                    <img ng-src="img/pics/{{pic.file}}" width="100px" height "100px"="" class="centerImg">
+                                    <img ng-src="img/pics/{{pic.file}}" width="100px" height="" "100px"="" class="centerImg">
                                     <div class="center caption" ng-style="myStyle" ng-click="$scope.picTouched= 2">
                                         {{pic[language.native] }}
                                         <br> {{pic[language.trans] }}
@@ -67,7 +68,7 @@
                     <ion-scroll scrollbar-y="false" style="height:{{slideHeight}}px;">
                         <div>
                             <ion-item collection-repeat="pic in feelingsArray" item-width="33%" item-height="155px" on-tap="picOnTap(pic)" class="picTapped ">
-                                <img ng-src="img/pics/{{pic.file}}" width="100px" height "100px"="" class="centerImg">
+                                <img ng-src="img/pics/{{pic.file}}" width="100px" height="" "100px"="" class="centerImg">
                                 <div class="center caption" ng-style="myStyle" ng-click="$scope.picTouched= 2">
                                     {{pic[language.native] }}
                                     <br> {{pic[language.trans] }}
