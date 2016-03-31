@@ -38,7 +38,7 @@
             <!-- our list and list items -->
             <ion-content>
                 <!-- categories horizontal scroll -->
-            
+
                 <div class="row">
                     <ion-item collection-repeat="pic in pics" item-width="50%" item-height="250px" on-tap="picOnTap(pic)" class="picTapped" on-swipe-right="onSwipeRight()">
                         <img ng-src="img/pics/{{pic.file}}" class="full-image ">
@@ -50,7 +50,7 @@
                 </div>
             </ion-content>
             <div class="bar bar-footer footerPad">
-                   
+
                         <ion-scroll direction="" class="available-scroller" style="width: 100%;" scrollbar-x="false" scrollbar-y="false" has-bouncing="false">
                             <div class="button-bar footerPad">
                                 <!-- Core -->
@@ -67,7 +67,7 @@
                                 <a class="button ion-android-bus button-positive" ng-click="selectCategory(&apos;Transportation&apos;)"></a>
                             </div>
                         </ion-scroll>
-              
+
             </div>
         </ion-side-menu-content>
         <!-- The modal of message -->
@@ -87,8 +87,8 @@
                         <ion-item item="item" ng-href="#" ng-click="itemClick()" class="item-thumbnail-left" ng-repeat="item in items" ng-class="{ active: item.isActive}">
                             <ion-delete-button class="ion-minus-circled" ng-click="deleteListItem(item, $index)"></ion-delete-button>
                             <img ng-src="img/pics/{{item.file}}">
-                            <h2>{{item.swedish}}</h2>
-                            <h2>{{item.english}}</h2>
+                            <h2>{{item[language.native]}}</h2>
+                            <h2>{{item[language.trans]}}</h2>
                             <ion-reorder-button class="ion-navicon" on-reorder="moveItem(item, $fromIndex, $toIndex)">
                             </ion-reorder-button>
                         </ion-item>

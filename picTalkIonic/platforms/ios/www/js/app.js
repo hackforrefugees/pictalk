@@ -112,10 +112,6 @@ angular.module('picTalk', ['ionic'])
     }
 
 
-    $scope.shouldShowDelete = false;
-
-
-
 
     $scope.picOnTap = function(tappedPic) {
         console.log($scope.picTouched);
